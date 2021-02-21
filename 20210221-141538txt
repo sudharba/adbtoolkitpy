@@ -1,0 +1,1189 @@
+--------- beginning of system
+02-21 14:15:36.718  4258  4258 I io_stats: !@   8,0 r 280301 10501792 w 104595 2548456 d 58439 10215400 f 79162 112286 iot 151388 133696 th 102400 0 0 pt 0 inp 0 0 18581.442
+--------- beginning of main
+02-21 14:15:38.406  4681  4681 I SurfaceFlinger: SFWD update time=18583133342669
+02-21 14:15:39.266  5016  5175 D InputReader: Btn_touch(5): value=1 when=18583.993344
+02-21 14:15:39.267  5016  5175 I InputReader: Touch event's action is 0x0 (id=2, t=0) [pCnt=1, s=0.45 ] when=18583.993344
+02-21 14:15:39.268  5016  5174 I InputDispatcher: Delivering touch to (5405): action: 0x4, f=0x0, d=0, '97aa58f', t=1 
+02-21 14:15:39.269  5016  5174 I InputDispatcher: Delivering touch to (5740): action: 0x0, f=0x0, d=0, 'dd1a16c', t=1 
+02-21 14:15:39.269  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: ViewPostIme pointer 0
+02-21 14:15:39.270  5740  5740 W BaseDragLayer: dispatchTouchEvent, ACTION_DOWN - mTouchDispatchState = 9
+02-21 14:15:39.270  5740  5740 W StatusBarController: onControllerInterceptTouchEvent return false by setting value
+02-21 14:15:39.270  5740  5740 W BaseDragLayer: findActiveController return false mTouchDispatchState = 9
+02-21 14:15:39.270  5740  5740 W AppStartUtils: sendActiveLaunchBroadcast() v.hasOnClickListeners() : true, iconInfo : AppInfo(id=125 type=APP hidden=0 container=all_apps screen=1 rank=8 user=UserHandle{0} title=WelcomeActivity componentName=ComponentInfo{com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity} screenType=0)
+02-21 14:15:39.271  5016  5174 D PowerManagerService: UserActivityState : 4 -> 1
+02-21 14:15:39.272  5016  5174 D PowerManagerService: mDisplayReady: false
+02-21 14:15:39.272  5740  5740 I FastBitmapDrawable: animatePress : true  immediate : false invalidate : true
+02-21 14:15:39.272  5016  5174 D PowerManagerService: mDisplayReady: false
+02-21 14:15:39.272  5016  5090 D DisplayPowerController: animateScreenStateChange: target=2, targetInternal=2, dualScreenPolicy=-1
+02-21 14:15:39.272  5016  5090 D DisplayPowerController: getFinalBrightness : Summary is  94 (0.37) ->  94 (0.37)
+02-21 14:15:39.272  5016  5090 D DisplayPowerController: Animating brightness: target= 94 (0.37), rate=7.843136 (PSM:, AB limit:( -1 (NaN) ~  -1 (NaN)) MB Limit:( -1 (NaN) ~ 365 (1.43))
+02-21 14:15:39.273  5016  5360 I Pageboost: start active launch : com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:39.273  5016  5360 D ActivityTaskManager: Checking for the Active launch isPkgEverLaunched :true, isPkgStopped : false, isDataCleared :false, isAutoRunBlocked : false
+02-21 14:15:39.274  5016  5360 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1056 com.android.server.wm.ActivityTaskManagerService$ActiveLaunchReceiver.onReceive:1056 android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0$LoadedApk$ReceiverDispatcher$Args:1640 android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA.run:2 android.os.Handler.handleCallback:938 
+02-21 14:15:39.275  5016  5090 V DisplayPowerController: Brightness [ 94 (0.37)] reason changing to: 'automatic', previous reason: 'automatic [ dim ]'.
+02-21 14:15:39.275  5016  5090 D PowerManagerService: DisplayPowerCallbacks : onStateChanged()
+02-21 14:15:39.276  5016  5621 I Pageboost: active launch for : com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal , 0
+02-21 14:15:39.276  5016  5090 D PowerManagerService: mDisplayReady: true
+02-21 14:15:39.276  5016  5090 D PowerManagerService: mDisplayReady: true
+02-21 14:15:39.276  5016  5360 E ActivityTaskManager: TouchDown intent received, starting ActiveLaunch
+02-21 14:15:39.276  6527 25767 E pageboostd: active launch start : app comamazonwhisperjoindeviceprovisioningservicetestappinternal
+02-21 14:15:39.276  5016  5016 I MdnieScenarioControlService: action  :  com.samsung.server.PowerManagerService.action.USER_ACTIVITY
+02-21 14:15:39.276  5016  5360 D ActivityTaskManager: starting Active launch
+02-21 14:15:39.276  4123  4123 I lmkd    : check proc pid launching app : 13109
+02-21 14:15:39.276  6527 25767 E pageboostd: comamazonwhisperjoindeviceprovisioningservicetestappinternal, amt 0 scnt 0 fcnt 0
+02-21 14:15:39.278  6527 25767 E pageboostd: comamazonwhisperjoindeviceprovisioningservicetestappinternal, amt 7258112 scnt 8 fcnt 11
+02-21 14:15:39.278  6527 25767 E pageboostd: active launch end : app comamazonwhisperjoindeviceprovisioningservicetestappinternal data_amount 7258112
+02-21 14:15:39.298  4618  4618 I SehLight: lcd : 61+
+02-21 14:15:39.299  4618  4618 I SehLight: lcd : 61-
+02-21 14:15:39.314  5016  5090 D DisplayPowerController: animateScreenStateChange: target=2, targetInternal=2, dualScreenPolicy=-1
+02-21 14:15:39.314  5016  5090 D DisplayPowerController: getFinalBrightness : Summary is  94 (0.37) ->  94 (0.37)
+02-21 14:15:39.314  4618  4618 I SehLight: lcd : 94+
+02-21 14:15:39.326  4618  4618 I SehLight: lcd : 94-
+02-21 14:15:39.329  5016  5175 D InputReader: Btn_touch(5): value=0 when=18584.055961
+02-21 14:15:39.329  5016  5175 I InputReader: Touch event's action is 0x1 (id=2, t=0) [pCnt=1, s=] when=18584.055961
+02-21 14:15:39.329  5016  5174 I InputDispatcher: Delivering touch to (5740): action: 0x1, f=0x0, d=0, 'dd1a16c', t=1 
+02-21 14:15:39.330  5740  5740 W StatusBarController: onControllerInterceptTouchEvent return false by setting value
+02-21 14:15:39.330  5740  5740 W BaseDragLayer: findActiveController return false mTouchDispatchState = 9
+02-21 14:15:39.330  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: ViewPostIme pointer 1
+02-21 14:15:39.330  5740  5740 W StatusBarController: onControllerInterceptTouchEvent return false by setting value
+02-21 14:15:39.330  5740  5740 W TaskViewTouchController: onControllerInterceptTouchEvent, clearState.
+02-21 14:15:39.330  5740  5740 W BaseDragLayer: findActiveController return false mTouchDispatchState = 0
+02-21 14:15:39.331  5740  5740 I FastBitmapDrawable: animatePress : false  immediate : true invalidate : false
+02-21 14:15:39.331  5740  5740 W ItemClickHandler: Icon Clicked
+02-21 14:15:39.332  5740  5740 I SemDvfsHyPerManager: acquire hyper - APP_LAUNCH/5740@0, type = -999
+02-21 14:15:39.334  4617  4654 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 16476670  [5740 / 0]    HINT : APP_LAUNCH    list : 
+02-21 14:15:39.334  7210  7210 I SemDvfsHyPerManager: acquire hyper - com.sec.android.sdhms/7210@9, type = -999
+02-21 14:15:39.335  4617  4654 I HYPER-HAL: [ResourceManager.cpp]updateResource(): [CPUMinFreq] UpdateResource Request ID : 16476670    Value : 2314000
+02-21 14:15:39.337  4617  4654 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 26060599  [7210 / 9]    HINT : APP_START    list : 
+02-21 14:15:39.337  5016  5189 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity bnds=[39,971][285,1314]} from uid 10121
+02-21 14:15:39.338  4617  4654 E HYPER-HAL: [HandlerSysfs.cpp]doResourceHandling(): Couldn't Open Sysfs - /sys/kernel/mm/vmscan/am_app_launch
+02-21 14:15:39.338  5016  6472 I SemDvfsHyPerManager: acquire hyper - AMS_APP_SWITCH/5016@19, type = -999
+02-21 14:15:39.338  5016  5189 D ActivityTaskManager: TaskLaunchParamsModifier:task=null activity=ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity display-area-from-source=DefaultTaskDisplayArea@103150757 task-display-area=DefaultTaskDisplayArea@103150757 display-area-windowing-mode=1
+02-21 14:15:39.338  5016  5189 D ActivityTaskManager: TaskLaunchParamsModifier:task=null activity=ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t-1} display-area-from-source=DefaultTaskDisplayArea@103150757 task-display-area=DefaultTaskDisplayArea@103150757 display-area-windowing-mode=1 inherit-from-source=fullscreen activity-options-fullscreen=Rect(0, 0 - 0, 0) non-freeform-display maximized-bounds
+02-21 14:15:39.339  5016  6472 D ActivityManagerPerformance: AMP_acquire() APP_SWITCH
+02-21 14:15:39.339  4617  4654 I HYPER-HAL: [ResourceManager.cpp]updateResource(): [CPUMaxFreq] UpdateResource Request ID : 26060599    Value : 2314000
+02-21 14:15:39.339  4617  4654 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 12678149  [5016 / 19]    HINT : AMS_APP_SWITCH    list : 
+02-21 14:15:39.339  4681  5358 I SurfaceFlinger: id=389 createSurf (0x0),-1 flag=24004, Task=3140#0
+02-21 14:15:39.341  5016  5189 D ActivityTaskManager: TaskLaunchParamsModifier:task=Task{a97a16c #3140 visible=false type=standard mode=fullscreen translucent=true A=10308:com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal U=0 StackId=3140 sz=0} activity=ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t-1} display-from-task=0 task-display-area=DefaultTaskDisplayArea@103150757 display-area-windowing-mode=1 inherit-from-source=fullscreen activity-options-fullscreen=Rect(0, 0 - 0, 0) non-freeform-display maximized-bounds
+02-21 14:15:39.341  4681  5358 I SurfaceFlinger: id=390 createSurf (0x0),-1 flag=80004, ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t3140}#0
+02-21 14:15:39.342  7210  7210 I SemDvfsHyPerManager: acquire hyper - com.sec.android.sdhms/7210@9, type = -999
+02-21 14:15:39.343  4617  4654 I HYPER-HAL: [ResourceManager.cpp]updateResource(): [CPUMinFreq] UpdateResource Request ID : 12678149    Value : 2314000
+02-21 14:15:39.343  4617  4654 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 26060599  [7210 / 9]    HINT : APP_START    list : 
+02-21 14:15:39.343  4617  4654 E HYPER-HAL: [HandlerSysfs.cpp]doResourceHandling(): Couldn't Open Sysfs - /sys/kernel/mm/vmscan/am_app_launch
+02-21 14:15:39.343  5016  5189 V WindowManager: Prepare app transition: transit=TRANSIT_TASK_OPEN mNextAppTransition=TRANSIT_UNSET alwaysKeepCurrent=false displayId=0 Callers=com.android.server.wm.DisplayContent.prepareAppTransition:5747 com.android.server.wm.DisplayContent.prepareAppTransition:5741 com.android.server.wm.ActivityStack.startActivityLocked:2570 com.android.server.wm.ActivityStarter.startActivityInner:2624 com.android.server.wm.ActivityStarter.startActivityUnchecked:2194 
+02-21 14:15:39.344  4617  4654 I HYPER-HAL: [ResourceManager.cpp]updateResource(): [CPUMaxFreq] UpdateResource Request ID : 26060599    Value : 2314000
+02-21 14:15:39.345  5740  5898 I AppIconSolution: getThemeIconWithBG called with public API, pkg = com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:39.346  5740  5898 I AppIconSolution: start to load, pkg=NULL, bg=192-192, dr=2006-2006, forDefault=true, density=640
+02-21 14:15:39.347  5016  5189 D SurfaceControl: hide : mNativeObject = 537242839568 - sc.mNativeObject = 536705754272 - Surface(name=ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t3140})/@0xb46d335
+02-21 14:15:39.347  5740  5898 I AppIconSolution: scale down, pkg=NULL, dr=215-215, bg=216-216
+02-21 14:15:39.347  5016  5189 D SurfaceControl: nativeSetFlags Done : Surface(name=ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t3140})/@0xb46d335
+02-21 14:15:39.348  5740  5898 I AppIconSolution: getIconScale, pkg=NULL, size=215, iconScale=IconScale[alpha=0, scale=1.0, isCrop=true]
+02-21 14:15:39.348  5016  5189 I SemDvfsHyPerManager: acquire hyper - AMS_APP_LAUNCH/5016@16, type = -999
+02-21 14:15:39.348  4617  4654 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 12663044  [5016 / 16]    HINT : AMS_APP_LAUNCH    list : 
+02-21 14:15:39.348  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.348  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.349  4617  4654 I HYPER-HAL: [ResourceManager.cpp]updateResource(): [CPUMinFreq] UpdateResource Request ID : 12663044    Value : 2314000
+02-21 14:15:39.350  5740  5898 I AppIconSolution: default container[CROP], pkg=NULL, bg=215-215, dr=215-215
+02-21 14:15:39.354  5740  5898 I LauncherActivityInfo: packageName: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, useThemeIcon: false, height: 215, width: 215, density: 640
+02-21 14:15:39.362  5740  5740 I DragController: endDrag
+02-21 14:15:39.362  5016  5016 I Pageboost: package com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:39.362  5740  5740 I SPayUpdater: updateSpayHandler launcher activity is paused false
+02-21 14:15:39.362  5016  5016 I Pageboost: stop active launch
+02-21 14:15:39.363  6527  6527 E pageboostd: Received HALT command code 2
+02-21 14:15:39.363  5016  5514 D MARsPolicyManager: onPackageResumedFG pkgName = com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, userId = 0
+02-21 14:15:39.363  5016  5514 V WindowManager: Prepare app transition: transit=TRANSIT_TASK_OPEN mNextAppTransition=TRANSIT_TASK_OPEN alwaysKeepCurrent=false displayId=0 Callers=com.android.server.wm.DisplayContent.prepareAppTransition:5747 com.android.server.wm.DisplayContent.prepareAppTransition:5741 com.android.server.wm.ActivityStack.resumeTopActivityInnerLocked:2230 com.android.server.wm.ActivityStack.resumeTopActivityUncheckedLocked:1860 com.android.server.wm.RootWindowContainer.resumeFocusedStacksTopActivities:2665 
+02-21 14:15:39.363  5016  5514 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (17222672)
+02-21 14:15:39.364  5016  5514 V WindowManager: rotationForOrientation(orient=SCREEN_ORIENTATION_UNSPECIFIED (-1), last=ROTATION_0 (0)); user=ROTATION_0 (0) USER_ROTATION_LOCKED
+02-21 14:15:39.364  5016  5514 V WindowOrientationListener: getProposedRotation: -1
+02-21 14:15:39.364  5016  5514 V WindowManager: rotationForOrientation(orient=SCREEN_ORIENTATION_UNSPECIFIED (-1), last=ROTATION_0 (0)); user=ROTATION_0 (0) USER_ROTATION_LOCKED
+02-21 14:15:39.364  5016  5514 V WindowOrientationListener: getProposedRotation: -1
+02-21 14:15:39.364  5016  5514 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_UNSPECIFIED (-1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.DisplayRotation.updateOrientation:390 com.android.server.wm.DisplayContent.updateOrientation:1695 com.android.server.wm.DisplayContent.updateOrientation:1624 com.android.server.wm.RootWindowContainer.ensureVisibilityAndConfig:2152 com.android.server.wm.ActivityStackSupervisor.realStartActivityLocked:923 com.android.server.wm.ActivityStackSupervisor.startSpecificActivity:1217 
+02-21 14:15:39.365  5016  5514 D TspStateManager: updateCustomValue customSetting=
+02-21 14:15:39.365  5016  5514 V WindowManager: rotationForOrientation(orient=SCREEN_ORIENTATION_UNSPECIFIED (-1), last=ROTATION_0 (0)); user=ROTATION_0 (0) USER_ROTATION_LOCKED
+02-21 14:15:39.365  5016  5514 V WindowOrientationListener: getProposedRotation: -1
+02-21 14:15:39.365  5016  5514 D TspStateManager: updateCustomValue customSetting=
+02-21 14:15:39.367  5016  5514 D PkgDataHelper: notifyAppCreate(), pkgName: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, sendRet: true
+02-21 14:15:39.367  5016  5181 D GameManagerService: onLooperPrepared(), msg: MSG_APP_CREATE, pkgName: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:39.367  5016  5514 D InputDispatcher: Focused application set to (0): a847a1f
+02-21 14:15:39.368  5016  5514 V WindowManager: Changing focus from Window{dd1a16c u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6254 com.android.server.wm.DisplayContent.setFocusedApp:6704 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6675 
+02-21 14:15:39.368  5016  5514 D StatusBarManagerService: notifyRequestedSystemKey recent=false home=false
+02-21 14:15:39.369  5016  5514 D GameManagerService: TaskStackListener.onTaskFocusChanged(), taskId=3140, focused=true
+02-21 14:15:39.369  5016  5181 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity}
+02-21 14:15:39.369  5016  5181 D GameManagerService: handleTaskFocused().
+02-21 14:15:39.369  5016  5181 D GameManagerService: sendFocusOutConditionally() - mPrevNotiPackage: (unknown)
+02-21 14:15:39.369  5016  5181 D GameManagerService:   handleTaskFocused(), pkgName: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, clsName: com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity, userID:0
+02-21 14:15:39.369  5016  5181 D GameManagerService: handleResume().
+02-21 14:15:39.369  5016  5181 D GameManagerService: sendFocusOutConditionally() - mPrevNotiPackage: (unknown)
+02-21 14:15:39.370  5016  5181 D GameManagerService:   handleResume(). pkgName: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, isTunableApp: null
+02-21 14:15:39.370  5016  5181 D GameManagerService: notifyFocusInOut(). of pkg: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, type: 4, isMinimized: false, isTunableApp: false
+02-21 14:15:39.370  5016  5514 D MARsPolicyManager: onPackageResumedFG pkgName = com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, userId = 0
+02-21 14:15:39.370  5016  5181 D GameManagerService:   notifyFocusInOut(). unexpected mPrevNotiType: -1
+02-21 14:15:39.370  5016  5181 D GameManagerService:NetworkLimit: callRelease
+02-21 14:15:39.370  5016  5181 D GM:SystemHelper: callReleaseBlock needReleaseBlock:false
+02-21 14:15:39.370  5016  5514 W WindowManager: Execute app transition: mNextAppTransition=TRANSIT_TASK_OPEN, displayId: 0 Callers=com.android.server.wm.RootWindowContainer.executeAppTransitionForAllDisplay:2586 com.android.server.wm.ActivityStackSupervisor.reportResumedActivityLocked:2225 com.android.server.wm.ActivityRecord.completeResumeLocked:5646 com.android.server.wm.ActivityStack.minimalResumeActivityLocked:1212 com.android.server.wm.ActivityStackSupervisor.realStartActivityLocked:1135 
+02-21 14:15:39.373  5016  5069 V ActivityManager: Changed top to 10308,ProcessRecord{738461b 13109:com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/u0a308}
+02-21 14:15:39.374  5016  5189 V WindowManager: Relayout Window{dd1a16c u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=0 req=1080x2340
+02-21 14:15:39.375  5016  5069 D GameManagerService: notePauseComponent(), received paused-component: com.sec.android.app.launcher
+02-21 14:15:39.377  5016  5088 D FastTrack: setFastTrackState: pid = 13109 ;tid= 13109 ;value= 1
+02-21 14:15:39.377  5016  5189 V WindowManager: Relayout hash=dd1a16c, pid=5740: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f2
+02-21 14:15:39.377  5016  5189 V WindowManager:   fl=81910100
+02-21 14:15:39.377  5016  5189 V WindowManager:   pfl=16020000
+02-21 14:15:39.377  5016  5189 V WindowManager:   vsysui=1700
+02-21 14:15:39.377  5016  5189 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+02-21 14:15:39.377  5016  5189 V WindowManager:   fitSides= naviIconColor=0}
+02-21 14:15:39.377  5016  5189 I SurfaceControl: release : mNativeObject = 536705898752 - Surface(name=com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740)/@0xe7c3d9c
+02-21 14:15:39.377  5016  5189 I SurfaceControl: nativeRelease nativeObject s[536705898752]
+02-21 14:15:39.377  5016  5189 I SurfaceControl: nativeRelease nativeObject e[536705898752]
+02-21 14:15:39.377  5016  5088 D FastTrack: setFastTrackState: pid = 13109 ;tid= 13234 ;value= 1
+02-21 14:15:39.378  5016  5066 V LocationManagerService: location appop changed for com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:39.378  6485  6542 I RequestManager_FLP: onOpChanged, op=0 / packageName=com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:39.379  5740  5740 I SurfaceControl: release : mNativeObject = 536705783168 - Surface(name=com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740)/@0x1f902f3
+02-21 14:15:39.379  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705783168]
+02-21 14:15:39.379  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705783168]
+02-21 14:15:39.379  5740  5740 I SurfaceControl: release : mNativeObject = 536705741168 - Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0xdb7c442
+02-21 14:15:39.379  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705741168]
+02-21 14:15:39.379  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705741168]
+02-21 14:15:39.380  5740  5740 I SurfaceControl: release : mNativeObject = 536705742848 - Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0x9bf00a4
+02-21 14:15:39.380  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705742848]
+02-21 14:15:39.380  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705742848]
+02-21 14:15:39.380  5740  5740 I SurfaceControl: release : mNativeObject = 536705785968 - Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0xb5d6e0d
+02-21 14:15:39.380  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705785968]
+02-21 14:15:39.380  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705785968]
+02-21 14:15:39.380  5016  5069 I ActivityManager: Killing 10476:com.google.process.gapps/u0a199 (adj 965): empty for 1804s
+02-21 14:15:39.380  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)0 dur=5 res=0x1 s={true 541537950544} ch=false fn=21
+02-21 14:15:39.387  5016  5264 D PkgPredictorService: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal go to foreground!
+02-21 14:15:39.387  5016  5264 E PkgPredictorService-Collector: record changed bt=1  wifi=1 screen=0
+02-21 14:15:39.387  5016  5264 D PkgPredictorService: previous pkgs: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal,com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal,com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal running pkg: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, uid: 0 is system: false
+02-21 14:15:39.387  5016  5264 D PkgPredictorService-Collector: save record...
+02-21 14:15:39.387  5016  5264 D PkgPredictorService-Collector:  (hour:14 day:1 previous:[com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal] activityName:unknown running:com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal userId:0 screenOrientation:0 wifi:1 bt:1 predictTime:1 apkVersion:-internal consumeTime:-1 preloaded:false>)
+02-21 14:15:39.387  5016  5264 D PkgPredictorService-NapPreloadController: User using: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:39.387  5016  5264 I PkgPredictorService-NapClassifier: RF predict version:1613854157244
+02-21 14:15:39.388  5016  5264 D PkgPredictorService-NapClassifier: Predict result: 8.0,3.0,-1.0, - [0_&_com.netgear.netgearup, 0_&_com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal]
+02-21 14:15:39.388  5016  5067 D SehCodecSolutionService: Update top [com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal]
+02-21 14:15:39.390 13109 13109 I DecorView: [INFO] isPopOver=false, config=true
+02-21 14:15:39.390 13109 13109 I DecorView: updateCaptionType >> DecorView@94b6742[], isFloating=false, isApplication=true, hasWindowDecorCaption=false, hasWindowControllerCallback=true
+02-21 14:15:39.390 13109 13109 D DecorView: setCaptionType = 0, this = DecorView@94b6742[]
+02-21 14:15:39.392 21801 21801 I ContentCaptureService: bound to com.samsung.android.smartsuggestions.services.ContentCaptureService
+02-21 14:15:39.392  5016  5514 W Binder  : Caught a RuntimeException from the binder stub implementation.
+02-21 14:15:39.392  5016  5514 W Binder  : java.lang.IllegalArgumentException: Packages or Components cannot be empty.
+02-21 14:15:39.392  5016  5514 W Binder  : 	at com.android.internal.infra.WhitelistHelper.setWhitelist(WhitelistHelper.java:63)
+02-21 14:15:39.392  5016  5514 W Binder  : 	at com.android.internal.infra.WhitelistHelper.setWhitelist(WhitelistHelper.java:102)
+02-21 14:15:39.392  5016  5514 W Binder  : 	at com.android.internal.infra.GlobalWhitelistState.setWhitelist(GlobalWhitelistState.java:63)
+02-21 14:15:39.392  5016  5514 W Binder  : 	at com.android.server.contentcapture.ContentCapturePerUserService$ContentCaptureServiceRemoteCallback.setContentCaptureWhitelist(ContentCapturePerUserService.java:598)
+02-21 14:15:39.392  5016  5514 W Binder  : 	at android.service.contentcapture.IContentCaptureServiceCallback$Stub.onTransact(IContentCaptureServiceCallback.java:111)
+02-21 14:15:39.392  5016  5514 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1195)
+02-21 14:15:39.392  5016  5514 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1159)
+02-21 14:15:39.395  5016  5069 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:39.399  5740  5755 W id.app.launche: Reducing the number of considered missed Gc histogram windows from 136 to 100
+02-21 14:15:39.400  5016  5069 D SemGameManager: getGMSBinder(), begin
+02-21 14:15:39.401  5016  5069 D SemGameManager: getGMSBinder(), successful: true
+02-21 14:15:39.402  5016  5069 D GameManagerService: identifyGamePackage. com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, mCurrentUserId: 0, callerUserId: 0
+02-21 14:15:39.402  5016  5069 D PkgDataHelper: getGamePkgData(). com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:39.402  5016  5069 D GameManagerService: noteResumeComponent(), received resumed-component: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:39.402  5016  5181 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity}
+02-21 14:15:39.402  5016  5181 D GameManagerService: handleResume().
+02-21 14:15:39.402  5016  5181 D GameManagerService: sendFocusOutConditionally() - mPrevNotiPackage: (unknown)
+02-21 14:15:39.402  5016  5181 D GameManagerService:   handleResume(). pkgName: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, isTunableApp: null
+02-21 14:15:39.402  5016  5181 D GameManagerService: notifyFocusInOut(). of pkg: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, type: 4, isMinimized: false, isTunableApp: false
+02-21 14:15:39.403  5016  5181 D GameManagerService:   notifyFocusInOut(). unexpected mPrevNotiType: -1
+02-21 14:15:39.403  5016  5181 D GameManagerService:NetworkLimit: callRelease
+02-21 14:15:39.403  5016  5181 D GM:SystemHelper: callReleaseBlock needReleaseBlock:false
+02-21 14:15:39.403  5016  5069 D PowerManagerService: [api] setScreenDimDurationOverrideFromWindowManagerInternal: timeoutMillis: -1
+02-21 14:15:39.408  4582  4582 I Zygote  : Process 10476 exited due to signal 9 (Killed)
+02-21 14:15:39.411  5016  5078 I libprocessgroup: Successfully killed process cgroup uid 10199 pid 10476 in 30ms
+02-21 14:15:39.415  5016  5070 D InputTransport: Input channel constructed: '89845cc', fd=459
+02-21 14:15:39.415  5016  5070 D InputTransport: Input channel constructed: '89845cc', fd=557
+02-21 14:15:39.415  4681  5358 I SurfaceFlinger: id=391 createSurf (0x0),-1 flag=80004, 89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal#0
+02-21 14:15:39.416  5016  5070 I ViewRootImpl@10973ff[internal]: setView = com.android.internal.policy.DecorView@7656f2a TM=true
+02-21 14:15:39.417  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.417  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.431  5016  5070 V WindowManager: Relayout Window{89845cc u0 Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal}: viewVisibility=0 req=1080x2340
+02-21 14:15:39.433  5016  5070 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+02-21 14:15:39.434  4681  5358 I SurfaceFlinger: id=392 createSurf (1080x2340),1 flag=404, Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal#0
+02-21 14:15:39.434  5016  5070 D WindowManager: makeSurface duration=1 name=Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:39.435  5016  5189 D InputTransport: Input channel constructed: 'de9f2b8', fd=584
+02-21 14:15:39.435  5016  5189 D InputTransport: Input channel constructed: 'de9f2b8', fd=588
+02-21 14:15:39.435  5016  5070 V WindowManager: Relayout hash=89845cc, pid=5016: mAttrs={(0,0)(fillxfill) sim={adjust=pan} layoutInDisplayCutoutMode=shortEdges ty=APPLICATION_STARTING wanim=0x1030304
+02-21 14:15:39.435  5016  5070 V WindowManager:   fl=81830118
+02-21 14:15:39.435  5016  5070 V WindowManager:   pfl=12020011
+02-21 14:15:39.435  5016  5070 V WindowManager:   fitSides= naviIconColor=0}
+02-21 14:15:39.435  4681  5358 I SurfaceFlinger: id=393 createSurf (0x0),-1 flag=80004, de9f2b8 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity#0
+02-21 14:15:39.435  5016  5070 I ViewRootImpl@10973ff[internal]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)0 dur=4 res=0x7 s={true 541537915664} ch=true fn=-1
+02-21 14:15:39.436  5016  5189 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+02-21 14:15:39.436  5016  5189 D InputTransport: Input channel destroyed: 'de9f2b8', fd=588
+02-21 14:15:39.436  5016  5070 I ViewRootImpl@10973ff[internal]: [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:10761 android.view.ViewRootImpl.performTraversals:3733 android.view.ViewRootImpl.doTraversal:2519 
+02-21 14:15:39.436  5740  5757 W System  : A resource failed to call release. 
+02-21 14:15:39.436  5740  5757 I SurfaceControl: finalize : nativeObject = 536705771184 - Surface(name=Surface(name=Task=3139)/@0xa04c3be - animation-leash)/@0x6638378
+02-21 14:15:39.436  5740  5757 I SurfaceControl: nativeRelease nativeObject s[536705771184]
+02-21 14:15:39.437  5740  5757 I SurfaceControl: nativeRelease nativeObject e[536705771184]
+02-21 14:15:39.437 13109 13109 D InputTransport: Input channel constructed: 'de9f2b8', fd=74
+02-21 14:15:39.437  4601  4635 D gralloc : [mali_gralloc_allocate] begin
+02-21 14:15:39.437  4601  4635 D gralloc : buffer_descriptor: wh(1080 2340) usage_pc(0x966 0x906) hal_format(0x1) layer_count(1) sizes(0 0 0) strde(0) byte_stride(0) alloc_wh(0 0) internal_format(0x0) alloc_format(0x0) fd_count(1) plane_count(0)
+02-21 14:15:39.437  4681  4700 I SurfaceFlinger: id=385 Removed Surface(name=Task=3139)/@0xa04c3be - animation-leash#0 (60)
+02-21 14:15:39.437 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: setView = com.android.internal.policy.DecorView@94b6742 TM=true
+02-21 14:15:39.437  4601  4635 D gralloc : [mali_gralloc_allocate] allocation successful
+02-21 14:15:39.437  5740  5757 W System  : A resource failed to call release. 
+02-21 14:15:39.437  5740  5757 I SurfaceControl: finalize : nativeObject = 536705782944 - Surface(name=Surface(name=Task=1)/@0xa71758d - animation-leash)/@0x13dba51
+02-21 14:15:39.437  5740  5757 I SurfaceControl: nativeRelease nativeObject s[536705782944]
+02-21 14:15:39.437  5740  5757 I SurfaceControl: nativeRelease nativeObject e[536705782944]
+02-21 14:15:39.438  4681  4700 I SurfaceFlinger: id=386 Removed Surface(name=Task=1)/@0xa71758d - animation-leash#0 (60)
+02-21 14:15:39.446  5016  5070 I ViewRootImpl@10973ff[internal]: [DP] pdf(0) 1 android.view.ViewRootImpl.performDraw:4673 android.view.ViewRootImpl.performTraversals:3754 android.view.ViewRootImpl.doTraversal:2519 
+02-21 14:15:39.446  5016  5070 I ViewRootImpl@10973ff[internal]: [DP] rdf()
+02-21 14:15:39.446  5016  5070 D WindowManager: finishDrawingWindow: Window{89845cc u0 Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal} mDrawState=DRAW_PENDING
+02-21 14:15:39.447  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.447  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.447  4681  4681 I Layer   : id=386[1] Destroyed Surface(name=Task=1)/@0xa71758d - animation-leash#0
+02-21 14:15:39.447  4681  4681 I Layer   : id=385[1] Destroyed Surface(name=Task=3139)/@0xa04c3be - animation-leash#0
+02-21 14:15:39.448  5016  5070 D WindowManager: performShow logReadyForDisplay  mToken.waitingToShow : true isTransitionSet : true
+02-21 14:15:39.448  5016  5189 I InputDispatcher: Focus left window (5740): dd1a16c in display 0 0
+02-21 14:15:39.449  5016  5070 D WindowManager: createAnimationAdapter(): container=Task{8041175 #1 visible=false type=home mode=fullscreen translucent=true I=com.sec.android.app.launcher/.activities.LauncherActivity U=0 StackId=1 sz=1}
+02-21 14:15:39.449  5016  5070 I WindowManager: Reparenting to leash, surface=Surface(name=Task=1)/@0xa71758d, leashParent=Surface(name=DefaultTaskDisplayArea)/@0xde07bcd
+02-21 14:15:39.450  4681  5358 I SurfaceFlinger: id=394 createSurf (0x0),-1 flag=24000, Surface(name=Task=1)/@0xa71758d - animation-leash#0
+02-21 14:15:39.450  5016  5070 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=Task=1)/@0xa71758d - animation-leash)/@0xd4353f6
+02-21 14:15:39.450  5016  5070 D WindowManager: startAnimation
+02-21 14:15:39.450  5016  5070 D WindowManager: createAnimationAdapter(): container=Task{a97a16c #3140 visible=false type=standard mode=fullscreen translucent=true A=10308:com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal U=0 StackId=3140 sz=1}
+02-21 14:15:39.451  5016  5070 I WindowManager: Reparenting to leash, surface=Surface(name=Task=3140)/@0xf83e3f7, leashParent=Surface(name=DefaultTaskDisplayArea)/@0xde07bcd
+02-21 14:15:39.451  4681  5358 I SurfaceFlinger: id=395 createSurf (0x0),-1 flag=24004, Surface(name=Task=3140)/@0xf83e3f7 - animation-leash#0
+02-21 14:15:39.451  5016  5070 D WindowManager: makeSurface duration=0 leash=Surface(name=Surface(name=Task=3140)/@0xf83e3f7 - animation-leash)/@0x2a78264
+02-21 14:15:39.452  5016  5070 D WindowManager: startAnimation
+02-21 14:15:39.452  5016  5070 D WindowManager: goodToGo()
+02-21 14:15:39.452  5016  5070 D WindowManager: createAppAnimations()
+02-21 14:15:39.452  5016  5070 D WindowManager: 	Add container=Task{a97a16c #3140 visible=false type=standard mode=fullscreen translucent=true A=10308:com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal U=0 StackId=3140 sz=1}
+02-21 14:15:39.452  5016  5070 D WindowManager: 	Add container=Task{8041175 #1 visible=false type=home mode=fullscreen translucent=true I=com.sec.android.app.launcher/.activities.LauncherActivity U=0 StackId=1 sz=1}
+02-21 14:15:39.452  5016  5070 D WindowManager: createWallpaperAnimations()
+02-21 14:15:39.453  5016  5070 D WindowManager: 	visible=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde}
+02-21 14:15:39.453  5016  5070 I WindowManager: Reparenting to leash, surface=Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8, leashParent=Surface(name=Leaf:0:1)/@0xce06ed7
+02-21 14:15:39.453  4681  5358 I SurfaceFlinger: id=396 createSurf (0x0),-1 flag=24000, Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8 - animation-leash#0
+02-21 14:15:39.453  5016  5070 D WindowManager: makeSurface duration=0 leash=Surface(name=Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8 - animation-leash)/@0x8652ccd
+02-21 14:15:39.453  5016  5070 D WindowManager: startAnimation
+02-21 14:15:39.455  5016 25778 I SystemUiVisibilityPolicyController: handleMessage: entry what = 1
+02-21 14:15:39.455  5016  5070 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0xfb23429
+02-21 14:15:39.455  5016  5070 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{48ffef3 android.os.BinderProxy@c28242d})/@0xb4fe945, destroy=false, surface=Surface(name=4735855 StatusBar)/@0x6fe05bc
+02-21 14:15:39.455  5016  5070 I SurfaceControl: release : mNativeObject = 536705865264 - Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0xfb23429
+02-21 14:15:39.455  5016  5070 I SurfaceControl: nativeRelease nativeObject s[536705865264]
+02-21 14:15:39.455  5016  5070 I SurfaceControl: nativeRelease nativeObject e[536705865264]
+02-21 14:15:39.455  5016  5070 I WindowManager: Reparenting to leash, surface=Surface(name=4735855 StatusBar)/@0x6fe05bc, leashParent=Surface(name=WindowToken{48ffef3 android.os.BinderProxy@c28242d})/@0xb4fe945
+02-21 14:15:39.455  9814  9814 I TrayStateController: systemUiVisibilityChanged : 2 0
+02-21 14:15:39.456  4681  5358 I SurfaceFlinger: id=397 createSurf (0x0),-1 flag=24000, Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash#1
+02-21 14:15:39.456  5016  5070 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0x608c893
+02-21 14:15:39.456  5016  5070 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0xb46254f
+02-21 14:15:39.456  5016  5070 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{a46e484 android.os.BinderProxy@cfa2116})/@0xc934c4a, destroy=false, surface=Surface(name=97aa58f NavigationBar0)/@0x716adb5
+02-21 14:15:39.456  5016  5070 I SurfaceControl: release : mNativeObject = 536706010416 - Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0xb46254f
+02-21 14:15:39.456  5016  5070 I SurfaceControl: nativeRelease nativeObject s[536706010416]
+02-21 14:15:39.456  5016  5070 I SurfaceControl: nativeRelease nativeObject e[536706010416]
+02-21 14:15:39.456  5016  5070 I WindowManager: Reparenting to leash, surface=Surface(name=97aa58f NavigationBar0)/@0x716adb5, leashParent=Surface(name=WindowToken{a46e484 android.os.BinderProxy@cfa2116})/@0xc934c4a
+02-21 14:15:39.456  4681  5358 I SurfaceFlinger: id=398 createSurf (0x0),-1 flag=24000, Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash#1
+02-21 14:15:39.457  5016  5070 D WindowManager: makeSurface duration=0 leash=Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0x924c8c9
+02-21 14:15:39.457  5016 25778 I SystemUiVisibilityPolicyController: handleMessage: entry what = 1
+02-21 14:15:39.458  9814  9814 I TrayStateController: systemUiVisibilityChanged : 0 0
+02-21 14:15:39.458  4681  5358 I Layer   : id=383 removeFromCurrentState Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash#0 (63)
+02-21 14:15:39.458  4681  5358 I Layer   : id=28 removeFromCurrentState 4735855 StatusBar#0 (63)
+02-21 14:15:39.458  4681  5358 I Layer   : id=34 removeFromCurrentState StatusBar$_5405#0 (63)
+02-21 14:15:39.458  4681  5358 I Layer   : id=384 removeFromCurrentState Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash#0 (63)
+02-21 14:15:39.458  4681  5358 I Layer   : id=28 addToCurrentState 4735855 StatusBar#0 (63)
+02-21 14:15:39.458  4681  5358 I Layer   : id=34 addToCurrentState StatusBar$_5405#0 (63)
+02-21 14:15:39.458  5016  5070 D WindowManager: RemoteAnimationController::onAnimationStart, animations=[Landroid.view.RemoteAnimationTarget;@e4cebce
+02-21 14:15:39.458  5016  5070 D WindowManager: startAnimation(): Notify animation start:
+02-21 14:15:39.458  5016  5070 I WindowManager: Starting remote animation
+02-21 14:15:39.459  5740 19249 I LauncherAnimationRunner: onAnimationStart, appTargets : [Lcom.android.systemui.shared.system.RemoteAnimationTargetCompat;@f9c0bd3 mStartAtFrontOfQueue : true
+02-21 14:15:39.459  5740  5740 I WrappedLauncherAnimationRunner: onCreateAnimation, animationRunnerImpl : com.android.launcher3.QuickstepAppTransitionManagerImpl$AppLaunchAnimationRunner@93d8310
+02-21 14:15:39.459  5740  5740 I QuickstepTransition: AppLaunchAnimationRunner, onCreateAnimation
+02-21 14:15:39.459  5016  5070 I WindowManager: container=Task{a97a16c #3140 visible=false type=standard mode=fullscreen translucent=true A=10308:com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal U=0 StackId=3140 sz=1}
+02-21 14:15:39.459  5016  5070 I WindowManager: Target:
+02-21 14:15:39.459  5016  5070 I WindowManager:   mode=0 taskId=3140 isTranslucent=false clipRect=[0,0][1080,2340] contentInsets=[0,83][0,126] prefixOrderIndex=16 position=[0,0] sourceContainerBounds=[0,0][1080,2340] screenSpaceBounds=[0,0][1080,2340] localBounds=[0,0][1080,2340]
+02-21 14:15:39.459  5016  5070 I WindowManager:   windowConfiguration={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 83 - 1080, 2214) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0}
+02-21 14:15:39.459  5016  5070 I WindowManager:   leash=Surface(name=Surface(name=Task=3140)/@0xf83e3f7 - animation-leash)/@0x2a78264
+02-21 14:15:39.459  5016  5070 I WindowManager: container=Task{8041175 #1 visible=false type=home mode=fullscreen translucent=true I=com.sec.android.app.launcher/.activities.LauncherActivity U=0 StackId=1 sz=1}
+02-21 14:15:39.459  5016  5070 I WindowManager: Target:
+02-21 14:15:39.459  5016  5070 I WindowManager:   mode=1 taskId=3131 isTranslucent=false clipRect=[0,0][1080,2340] contentInsets=[0,83][0,126] prefixOrderIndex=13 position=[0,0] sourceContainerBounds=[0,0][1080,2340] screenSpaceBounds=[0,0][1080,2340] localBounds=[0,0][1080,2340]
+02-21 14:15:39.459  5016  5070 I WindowManager:   windowConfiguration={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 83 - 1080, 2214) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTATION_0}
+02-21 14:15:39.459  5016  5070 I WindowManager:   leash=Surface(name=Surface(name=Task=1)/@0xa71758d - animation-leash)/@0xd4353f6
+02-21 14:15:39.459  5016  5514 V WindowManager: Relayout Window{de9f2b8 u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity}: viewVisibility=0 req=1080x2340
+02-21 14:15:39.460  5016  5514 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+02-21 14:15:39.461  4681  5358 I SurfaceFlinger: id=399 createSurf (1080x2340),1 flag=404, com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity$_13109#0
+02-21 14:15:39.461  5016  5514 D WindowManager: makeSurface duration=1 name=com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity$_13109
+02-21 14:15:39.462  5016  5514 V WindowManager: Changing focus from null to Window{de9f2b8 u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6254 com.android.server.wm.WindowManagerService.relayoutWindow:2697 com.android.server.wm.Session.relayout:217 
+02-21 14:15:39.462  5016 25778 I SystemUiVisibilityPolicyController: handleMessage: entry what = 1
+02-21 14:15:39.462  5016  5514 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0x608c893
+02-21 14:15:39.462  5016  5514 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{48ffef3 android.os.BinderProxy@c28242d})/@0xb4fe945, destroy=false, surface=Surface(name=4735855 StatusBar)/@0x6fe05bc
+02-21 14:15:39.462  5016  5514 I SurfaceControl: release : mNativeObject = 536705994848 - Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0x608c893
+02-21 14:15:39.462  5016  5514 I SurfaceControl: nativeRelease nativeObject s[536705994848]
+02-21 14:15:39.462  5016  5514 I SurfaceControl: nativeRelease nativeObject e[536705994848]
+02-21 14:15:39.462  5016  5514 I WindowManager: Reparenting to leash, surface=Surface(name=4735855 StatusBar)/@0x6fe05bc, leashParent=Surface(name=WindowToken{48ffef3 android.os.BinderProxy@c28242d})/@0xb4fe945
+02-21 14:15:39.463  9814  9814 I TrayStateController: systemUiVisibilityChanged : 0 0
+02-21 14:15:39.463  4681  5358 I SurfaceFlinger: id=400 createSurf (0x0),-1 flag=24000, Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash#0
+02-21 14:15:39.463  5016  5514 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0xb9eb9fc
+02-21 14:15:39.463  5016  5514 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0x924c8c9
+02-21 14:15:39.463  5016  5514 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{a46e484 android.os.BinderProxy@cfa2116})/@0xc934c4a, destroy=false, surface=Surface(name=97aa58f NavigationBar0)/@0x716adb5
+02-21 14:15:39.463  5016  5514 I SurfaceControl: release : mNativeObject = 536706003136 - Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0x924c8c9
+02-21 14:15:39.463  5016  5514 I SurfaceControl: nativeRelease nativeObject s[536706003136]
+02-21 14:15:39.463  5016  5514 I SurfaceControl: nativeRelease nativeObject e[536706003136]
+02-21 14:15:39.463  5016  5514 I WindowManager: Reparenting to leash, surface=Surface(name=97aa58f NavigationBar0)/@0x716adb5, leashParent=Surface(name=WindowToken{a46e484 android.os.BinderProxy@cfa2116})/@0xc934c4a
+02-21 14:15:39.463  4681  5358 I SurfaceFlinger: id=401 createSurf (0x0),-1 flag=24000, Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash#0
+02-21 14:15:39.464  5016  5514 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0xd4ff6da
+02-21 14:15:39.464  5016  5514 D StatusBarManagerService: notifyRequestedSystemKey recent=false home=false
+02-21 14:15:39.465  5016  5514 V WindowManager: Relayout hash=de9f2b8, pid=13109: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030304
+02-21 14:15:39.465  5016  5514 V WindowManager:   fl=81810100
+02-21 14:15:39.465  5016  5514 V WindowManager:   pfl=12020000
+02-21 14:15:39.465  5016  5514 V WindowManager:   fitSides= naviIconColor=0}
+02-21 14:15:39.465  5016  5514 I SurfaceControl: release : mNativeObject = 536705853840 - Surface(name=com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity$_13109)/@0xedeb70b
+02-21 14:15:39.465  5016  5514 I SurfaceControl: nativeRelease nativeObject s[536705853840]
+02-21 14:15:39.465  5016  5514 I SurfaceControl: nativeRelease nativeObject e[536705853840]
+02-21 14:15:39.466  4681  4700 I Layer   : id=398 removeFromCurrentState Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash#1 (66)
+02-21 14:15:39.466  4681  4700 I Layer   : id=24 removeFromCurrentState 97aa58f NavigationBar0#0 (66)
+02-21 14:15:39.466  4681  4700 I Layer   : id=29 removeFromCurrentState NavigationBar0$_5405#0 (66)
+02-21 14:15:39.466  4681  4700 I Layer   : id=397 removeFromCurrentState Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash#1 (66)
+02-21 14:15:39.466  4681  4700 I Layer   : id=24 addToCurrentState 97aa58f NavigationBar0#0 (66)
+02-21 14:15:39.466  4681  4700 I Layer   : id=29 addToCurrentState NavigationBar0$_5405#0 (66)
+02-21 14:15:39.467  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.467  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.468 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)0 dur=12 res=0x7 s={true 541537854624} ch=true fn=-1
+02-21 14:15:39.469  5740  5740 W AppTransitionAnimatorImpl: animation with floating icon
+02-21 14:15:39.469  5740  5740 I RemoteAnimationTargets: unfilteredApps : [Lcom.android.systemui.shared.system.RemoteAnimationTargetCompat;@f9c0bd3 apps : [Lcom.android.systemui.shared.system.RemoteAnimationTargetCompat;@f9c0bd3 wallpapers : [Lcom.android.systemui.shared.system.RemoteAnimationTargetCompat;@f0e780e targetMode : 0 hasRecents : false
+02-21 14:15:39.470  5740  5740 W AppTransitionAnimatorImpl: onAnimationStart - APP IN
+02-21 14:15:39.470  4601  4635 D gralloc : [mali_gralloc_allocate] begin
+02-21 14:15:39.471  4601  4635 D gralloc : buffer_descriptor: wh(1080 2340) usage_pc(0x40000000000b00 0x40000000000b00) hal_format(0x1) layer_count(1) sizes(0 0 0) strde(0) byte_stride(0) alloc_wh(0 0) internal_format(0x0) alloc_format(0x0) fd_count(1) plane_count(0)
+02-21 14:15:39.471  5740  5740 I SurfaceControl: release : mNativeObject = 536705759424 - Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0xfc84541
+02-21 14:15:39.471  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705759424]
+02-21 14:15:39.471  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705759424]
+02-21 14:15:39.471  5740  5740 I SurfaceControl: release : mNativeObject = 536705789216 - Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0xea57ae6
+02-21 14:15:39.471  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705789216]
+02-21 14:15:39.471  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705789216]
+02-21 14:15:39.471  5740  5740 I SurfaceControl: release : mNativeObject = 536705783168 - Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0xbcb9827
+02-21 14:15:39.471  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705783168]
+02-21 14:15:39.471  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705783168]
+02-21 14:15:39.471  4601  4635 D gralloc : [mali_gralloc_allocate] allocation successful
+02-21 14:15:39.472 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:10761 android.view.ViewRootImpl.performTraversals:3733 android.view.ViewRootImpl.doTraversal:2519 
+02-21 14:15:39.472 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: [DP] pd() Asnyc report
+02-21 14:15:39.472  5016  5070 I SurfaceControl: release : mNativeObject = 536706010416 - Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0xe1b79e8
+02-21 14:15:39.472  5016  5070 I SurfaceControl: nativeRelease nativeObject s[536706010416]
+02-21 14:15:39.472  5016  5070 I SurfaceControl: nativeRelease nativeObject e[536706010416]
+02-21 14:15:39.472  4601  4635 D gralloc : [mali_gralloc_allocate] begin
+02-21 14:15:39.472  5016  5070 I SurfaceControl: release : mNativeObject = 536705865264 - Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0x247c801
+02-21 14:15:39.472  5016  5070 I SurfaceControl: nativeRelease nativeObject s[536705865264]
+02-21 14:15:39.472  4601  4635 D gralloc : buffer_descriptor: wh(1080 2340) usage_pc(0x40000000000b00 0x40000000000b00) hal_format(0x1) layer_count(1) sizes(0 0 0) strde(0) byte_stride(0) alloc_wh(0 0) internal_format(0x0) alloc_format(0x0) fd_count(1) plane_count(0)
+02-21 14:15:39.472  5016  5070 I SurfaceControl: nativeRelease nativeObject e[536705865264]
+02-21 14:15:39.472  4681  5358 I SurfaceFlinger: id=398 Removed Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash#1 (66)
+02-21 14:15:39.473  4601  4635 D gralloc : [mali_gralloc_allocate] allocation successful
+02-21 14:15:39.473  4601  4635 D gralloc : [mali_gralloc_allocate] begin
+02-21 14:15:39.473  4601  4635 D gralloc : buffer_descriptor: wh(1080 2340) usage_pc(0x40000000000b00 0x40000000000b00) hal_format(0x1) layer_count(1) sizes(0 0 0) strde(0) byte_stride(0) alloc_wh(0 0) internal_format(0x0) alloc_format(0x0) fd_count(1) plane_count(0)
+02-21 14:15:39.473  4681  4700 I SurfaceFlinger: id=397 Removed Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash#1 (66)
+02-21 14:15:39.474  5016  5189 D ActivityTaskManager: getRecentPairTasks() maxNum :3 from 10121
+02-21 14:15:39.474  5016  5189 D RecentTaskItemController: getRecentPairTasksImpl() maxNum :3 from 10121
+02-21 14:15:39.474  4601  4635 D gralloc : [mali_gralloc_allocate] allocation successful
+02-21 14:15:39.480 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$performDraw$1$ViewRootImpl:4554 android.view.-$$Lambda$ViewRootImpl$DJd0VUYJgsebcnSohO6h8zc_ONI.run:6 android.os.Handler.handleCallback:938 
+02-21 14:15:39.480 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: [DP] rdf()
+02-21 14:15:39.481  5016  5189 D WindowManager: finishDrawingWindow: Window{de9f2b8 u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity} mDrawState=DRAW_PENDING
+02-21 14:15:39.481  4681  4681 I Layer   : id=397[1] Destroyed Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash#1
+02-21 14:15:39.481  4681  4681 I Layer   : id=398[1] Destroyed Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash#1
+02-21 14:15:39.482  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-21 14:15:39.486  5016  5070 D PkgPredictorService: pkg:com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal activity:com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity thisTime:148
+02-21 14:15:39.486  5016  5070 D PkgPredictorService-Collector: update activity launch time: WelcomeActivity : 148
+02-21 14:15:39.488  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.488  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.491  5016  5074 D ArtManagerInternalImpl: /data/misc/iorapd/com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/21/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity/compiled_traces/compiled_trace.pb doesn't exist
+02-21 14:15:39.491  5016  5070 D ViewRootImpl@10973ff[internal]: dispatchDetachedFromWindow: reset blurmask
+02-21 14:15:39.491  5016  5189 I SemDvfsHyPerManager: acquire hyper - AMS_RESUME_TAIL/5016@17, type = -999
+02-21 14:15:39.491  5016  5070 I ViewRootImpl@10973ff[internal]: dispatchDetachedFromWindow
+02-21 14:15:39.491  5016  5070 I SurfaceControl: release : mNativeObject = 536705898752 - Surface(name=Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0x43fb8e7
+02-21 14:15:39.491  5016  5070 I SurfaceControl: nativeRelease nativeObject s[536705898752]
+02-21 14:15:39.491  5016  5070 I SurfaceControl: nativeRelease nativeObject e[536705898752]
+02-21 14:15:39.491  5016  5189 I SemDvfsHyPerManager: acquire hyper - AMS_ACT_LAZY/5016@18, type = -999
+02-21 14:15:39.491  5016  5189 D ActivityManagerPerformance: AMP_acquire() TAIL
+02-21 14:15:39.491  5016  5189 D ActivityManagerPerformance: AMP_release() APP_SWITCH
+02-21 14:15:39.492  4617  4654 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 12668078  [5016 / 17]    HINT : AMS_RESUME_TAIL    list : 
+02-21 14:15:39.492  5016  5070 D InputTransport: Input channel destroyed: '89845cc', fd=459
+02-21 14:15:39.493  5016  5070 I WindowManager: Reparenting to leash, surface=Surface(name=89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0xca68732, leashParent=Surface(name=ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t3140})/@0xb46d335
+02-21 14:15:39.493  4617  4654 I HYPER-HAL: [ResourceManager.cpp]updateResource(): [CPUMinFreq] UpdateResource Request ID : 12668078    Value : 1768000
+02-21 14:15:39.493  4617  4654 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 12673113  [5016 / 18]    HINT :      list : 
+02-21 14:15:39.493  4681  5358 I SurfaceFlinger: id=402 createSurf (0x0),-1 flag=24000, Surface(name=89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0xca68732 - animation-leash#0
+02-21 14:15:39.493  4617  4654 E HYPER-HAL: [Request.cpp]acquire(): Request:: id : 12673113, No Resource to set
+02-21 14:15:39.493  5016  5070 D WindowManager: makeSurface duration=0 leash=Surface(name=Surface(name=89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0xca68732 - animation-leash)/@0x3219e00
+02-21 14:15:39.494  4617  4654 I HYPER-HAL: [ResourceManager.cpp]removeResource(): [CPUMinFreq] RemoveResource Request ID : 12678149
+02-21 14:15:39.494  5016  5074 I ActivityTaskManager: Displayed com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity: +148ms
+02-21 14:15:39.494  5016  5074 I Pageboost: Launch time gathered : pid 13109 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal 148
+02-21 14:15:39.495  4617  4654 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 12678149
+02-21 14:15:39.495  6527  6527 E pageboostd: Received HALT command code 2
+02-21 14:15:39.495  5016  5070 D InputTransport: Input channel destroyed: '89845cc', fd=557
+02-21 14:15:39.496  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.496  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.499  5016  5189 I InputDispatcher: Focus entered window (13109): de9f2b8 in display 0 0
+02-21 14:15:39.499  5740  5740 I BadgeRenderer: Invalid count : 0
+02-21 14:15:39.499  5740  5740 I BadgeRenderer: Invalid count : 0
+02-21 14:15:39.500  5740  5740 I BadgeRenderer: Invalid count : 0
+02-21 14:15:39.500 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-21 14:15:39.500 13109 13109 D InputMethodManager: prepareNavigationBarInfo() DecorView@94b6742[WelcomeActivity]
+02-21 14:15:39.500 13109 13109 D InputMethodManager: getNavigationBarColor() -16711423
+02-21 14:15:39.502 13109 13109 D InputMethodManager: prepareNavigationBarInfo() DecorView@94b6742[WelcomeActivity]
+02-21 14:15:39.502 13109 13109 D InputMethodManager: getNavigationBarColor() -16711423
+02-21 14:15:39.502 13109 13109 V InputMethodManager: Starting input: tba=com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal ic=null mNaviBarColor -16711423 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-21 14:15:39.502 13109 13109 D InputMethodManager: startInputInner - Id : 0
+02-21 14:15:39.502 13109 13109 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-21 14:15:39.504  5016  5189 V InputMethodManagerService: Unspecified window will hide input
+02-21 14:15:39.504  5016  5189 V InputMethodManagerService: hideCurrentInputLocked : shouldHideSoftInput is false
+02-21 14:15:39.504  5016  5189 D InputMethodManagerService: mDesktopModeManager null!
+02-21 14:15:39.504  5016  5189 V InputMethodManagerService: getDisplayIdOfInputMethodWindowToBeAdded : 0
+02-21 14:15:39.505  4681  4681 D SurfaceFlinger: Display 0 HWC layers:
+02-21 14:15:39.505  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af0a30 | 0002 | RGBA_1010102 |  630.0    0.0 1710.0 2340.0 |    0    0 1080 2340 | com.android.systemui.ImageWallpaper$_5405#0
+02-21 14:15:39.505  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af32b0 | 0000 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sec.android.app.launcher/com.sec[...].activities.LauncherActivity$_5740#0
+02-21 14:15:39.505  4681  4681 D SurfaceFlinger:      CLIENT | 0x70a7af0370 | 0002 | RGBA_8888    |    0.0  585.0 1080.0 1665.0 |   69  965  320 1216 | com.amazon.whisperjoin.deviceprovisi[...]vicetestapp.WelcomeActivity$_13109#0
+02-21 14:15:39.505  4681  4681 D SurfaceFlinger:      CLIENT | 0x70a7af6670 | 0002 | RGBA_8888    |    0.0  585.0 1080.0 1665.0 |   69  965  320 1216 | Splash Screen com.amazon.whisperjoin[...]rovisioningservicetestapp.internal#0
+02-21 14:15:39.505  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af1d50 | 0000 | RGBA_8888    |    0.0    0.0 1080.0   78.0 |    0    0 1080   78 | StatusBar$_5405#0
+02-21 14:15:39.505  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af2650 | 0000 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  438 1080  780 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_9814#0
+02-21 14:15:39.505  4681  4681 D SurfaceFlinger:      DEVI
+02-21 14:15:39.505  4681  4681 D SurfaceFlinger: CE | 0x70a7aebdb0 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2214 1080 2340 | NavigationBar0$_5405#0
+02-21 14:15:39.505  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7aefb90 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  151.0 |    0    0 1080  151 | ScreenDecorOverlay$_5405#0
+02-21 14:15:39.505  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af0130 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  151.0 |    0 2189 1080 2340 | ScreenDecorOverlayBottom$_5405#0
+02-21 14:15:39.505  4681  4681 D SurfaceFlinger: 
+02-21 14:15:39.506  5016  5189 V InputMethodManagerService: Hide switching menu
+02-21 14:15:39.506  5016  5189 D SamsungIMMSHWKeyboard: isConnectedDexOnPC false
+02-21 14:15:39.506  5016  5189 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+02-21 14:15:39.507  5016  5189 D InputMethodManagerService: checkDisplayOfStartInputAndUpdateKeyboard display Id 0last 0
+02-21 14:15:39.507  5016  5189 D InputTransport: Input channel constructed: 'ClientS', fd=459
+02-21 14:15:39.507  5016  5189 D InputTransport: Input channel destroyed: 'ClientS', fd=459
+02-21 14:15:39.507 13109 13109 D InputTransport: Input channel constructed: 'ClientS', fd=81
+02-21 14:15:39.508  5016  5896 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0xfd5b8e3
+02-21 14:15:39.508  5016  5896 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{44ec9d4 android.os.Binder@506e327})/@0xb88bf86, destroy=false, surface=Surface(name=ba841ba InputMethod)/@0xd113861
+02-21 14:15:39.508  5016  5896 I SurfaceControl: release : mNativeObject = 536706029680 - Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0xfd5b8e3
+02-21 14:15:39.508  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536706029680]
+02-21 14:15:39.508  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536706029680]
+02-21 14:15:39.508  5016  5896 I WindowManager: Reparenting to leash, surface=Surface(name=ba841ba InputMethod)/@0xd113861, leashParent=Surface(name=WindowToken{44ec9d4 android.os.Binder@506e327})/@0xb88bf86
+02-21 14:15:39.509  4681  5358 I SurfaceFlinger: id=403 createSurf (0x0),-1 flag=24004, Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash#0
+02-21 14:15:39.509  5016  5896 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x3d0dddf
+02-21 14:15:39.509  5016  5896 D SurfaceControl: hide : mNativeObject = 537242839568 - sc.mNativeObject = 536705893712 - Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x3d0dddf
+02-21 14:15:39.509  5016  5896 D SurfaceControl: nativeSetFlags Done : Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x3d0dddf
+02-21 14:15:39.510  7479  7479 I HBD     : HoneyBoardService onFinishInput 
+02-21 14:15:39.510  7479  7479 I HBD     : a IC have been unbinded,  InputConnectionWrapper{idHash=#83cba18 mMissingMethods=}
+02-21 14:15:39.510  7479  7479 I HBD     : HoneyBoardService [PF_CL][onFinishInput]  484461 ns 
+02-21 14:15:39.511  7479  7479 I HBD     : HoneyBoardService [IMI] onStartInput - caller pid : 13109 , caller uid : 10308 
+02-21 14:15:39.511  7479  7479 I HBD     : i updateConfigs 
+02-21 14:15:39.511  7479  7479 I HBD     : i isEnabledNightMode : true 
+02-21 14:15:39.511  7479  7479 I HBD     : a IC have been binded, InputConnectionWrapper{idHash=#91ebc71 mMissingMethods=} 
+02-21 14:15:39.511  7479  7479 I HBD     : h [EditorInputType]setPrivateImeOptionsToTable privateImeOptions ( null )
+02-21 14:15:39.511  7479  7479 I HBD     : b incognitoMode : false 
+02-21 14:15:39.511  7479  7479 I HBD     : a needOff = true , isJpnConvertState : false, isForceOff = false 
+02-21 14:15:39.512  7479  7479 I HBD     : h getDefaultInputRange : UNKNOWN 
+02-21 14:15:39.512  7479  7479 I HBD     : h getDefaultInputRange : UNKNOWN 
+02-21 14:15:39.512  7479  7479 I HBD     : h getDefaultInputRange : UNKNOWN 
+02-21 14:15:39.513  7479  7479 I HBD     : h getDefaultInputRange : UNKNOWN 
+02-21 14:15:39.513  7479  7479 I HBD     : a currentState : 0 
+02-21 14:15:39.514  7479  7479 I HBD     : a [UpdatePolicy] [post] a: 0 cl: 65537 kit: [0/0] vt: 0 ir: 1 
+02-21 14:15:39.515  4681  5358 I Layer   : id=388 removeFromCurrentState Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash#1 (66)
+02-21 14:15:39.516  7479  7479 I HBD     : HoneyBoardService [PF_OP][onStartInput]  4572577 ns 
+02-21 14:15:39.516  5740  5740 I SurfaceControl: release : mNativeObject = 536705779584 - Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x24f8fc3
+02-21 14:15:39.516  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705779584]
+02-21 14:15:39.516  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705779584]
+02-21 14:15:39.518 13109 13109 D SurfaceControl: hide : mNativeObject = 537243190688 - sc.mNativeObject = 536705726048 - Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x1b9061c
+02-21 14:15:39.518 13109 13109 D SurfaceControl: nativeSetFlags Done : Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x1b9061c
+02-21 14:15:39.519  5016  5189 D SamsungIMMSHWKeyboard: isConnectedDexOnPC false
+02-21 14:15:39.519  5016  5189 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+02-21 14:15:39.519 13109 13109 I SurfaceControl: release : mNativeObject = 536705722352 - Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0x14c5225
+02-21 14:15:39.519 13109 13109 I SurfaceControl: nativeRelease nativeObject s[536705722352]
+02-21 14:15:39.519 13109 13109 I SurfaceControl: nativeRelease nativeObject e[536705722352]
+02-21 14:15:39.519 13109 13109 I SurfaceControl: release : mNativeObject = 536705729968 - Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0xc246ffa
+02-21 14:15:39.519 13109 13109 I SurfaceControl: nativeRelease nativeObject s[536705729968]
+02-21 14:15:39.519 13109 13109 I SurfaceControl: nativeRelease nativeObject e[536705729968]
+02-21 14:15:39.524  5016  5559 D MdnieScenarioControlService:  packageName : com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal    className : com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity
+02-21 14:15:39.524  5016  5559 V MdnieScenarioControlService: setUIMode from UI function(3)
+02-21 14:15:39.548  5016  5070 I WindowManager: Reparenting to original parent: Surface(name=ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t3140})/@0xb46d335, destroy=true, surface=Surface(name=89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0xca68732
+02-21 14:15:39.548  5016  5070 I SurfaceControl: release : mNativeObject = 536706013328 - Surface(name=Surface(name=89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0xca68732 - animation-leash)/@0x3219e00
+02-21 14:15:39.548  5016  5070 I SurfaceControl: nativeRelease nativeObject s[536706013328]
+02-21 14:15:39.548  5016  5070 I SurfaceControl: nativeRelease nativeObject e[536706013328]
+02-21 14:15:39.548  5016  5070 D SurfaceControl: hide : mNativeObject = 537242839568 - sc.mNativeObject = 536705776336 - Surface(name=Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0x283ca8a
+02-21 14:15:39.548  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0x283ca8a
+02-21 14:15:39.549  5016  5070 E WindowManager: win=Window{89845cc u0 Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5183 com.android.server.wm.ActivityRecord.destroySurfaces:5164 com.android.server.wm.WindowState.onExitAnimationDone:5570 com.android.server.wm.WindowStateAnimator.onAnimationFinished:332 com.android.server.wm.WindowState.onAnimationFinished:6035 com.android.server.wm.-$$Lambda$dwJG8BAnLlvKNGuDY9U3-haNY4M.onAnimationFinished:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:112 
+02-21 14:15:39.549  5016  5070 I WindowManager: Destroying surface Surface(name=Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0x283ca8a called by com.android.server.wm.WindowStateAnimator.destroySurface:1794 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:765 com.android.server.wm.WindowState.destroySurfaceUnchecked:3870 com.android.server.wm.WindowState.destroySurface:3844 com.android.server.wm.ActivityRecord.destroySurfaces:5183 com.android.server.wm.ActivityRecord.destroySurfaces:5164 com.android.server.wm.WindowState.onExitAnimationDone:5570 com.android.server.wm.WindowStateAnimator.onAnimationFinished:332 
+02-21 14:15:39.549  5016  5070 I SurfaceControl: release : mNativeObject = 536705776336 - Surface(name=Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0x283ca8a
+02-21 14:15:39.549  5016  5070 I SurfaceControl: nativeRelease nativeObject s[536705776336]
+02-21 14:15:39.549  5016  5070 I SurfaceControl: nativeRelease nativeObject e[536705776336]
+02-21 14:15:39.549  4681  4699 I Layer   : id=392 removeFromCurrentState Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal#0 (66)
+02-21 14:15:39.550  5016  5070 I SurfaceControl: release : mNativeObject = 536705958000 - Surface(name=89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0xca68732
+02-21 14:15:39.550  5016  5070 I SurfaceControl: nativeRelease nativeObject s[536705958000]
+02-21 14:15:39.550  5016  5070 I SurfaceControl: nativeRelease nativeObject e[536705958000]
+02-21 14:15:39.552  4681  4699 I Layer   : id=391 removeFromCurrentState 89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal#0 (66)
+02-21 14:15:39.552  4681  4699 I Layer   : id=402 removeFromCurrentState Surface(name=89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0xca68732 - animation-leash#0 (66)
+02-21 14:15:39.552  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.552  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.553  4681  4699 I SurfaceFlinger: id=391 Removed 89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal#0 (66)
+02-21 14:15:39.553  4681  4699 I SurfaceFlinger: id=402 Removed Surface(name=89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0xca68732 - animation-leash#0 (66)
+02-21 14:15:39.553  4681  4699 I SurfaceFlinger: id=392 Removed Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal#0 (66)
+02-21 14:15:39.564  4681  4681 I Layer   : id=402[1] Destroyed Surface(name=89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal)/@0xca68732 - animation-leash#0
+02-21 14:15:39.564  4681  4681 I Layer   : id=391[1] Destroyed 89845cc Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal#0
+02-21 14:15:39.566  4681  4681 I Layer   : id=392[1] Destroyed Splash Screen com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal#0
+02-21 14:15:39.569  4681  4681 D SurfaceFlinger: Display 0 HWC layers:
+02-21 14:15:39.569  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af0a30 | 0002 | RGBA_1010102 |  630.0    0.0 1710.0 2340.0 |    0    0 1080 2340 | com.android.systemui.ImageWallpaper$_5405#0
+02-21 14:15:39.569  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af05b0 | 0000 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sec.android.app.launcher/com.sec[...].activities.LauncherActivity$_5740#0
+02-21 14:15:39.569  4681  4681 D SurfaceFlinger:      CLIENT | 0x70a7af1330 | 0002 | RGBA_8888    |    0.0  210.0 1080.0 2096.0 |   30  500  750 1758 | com.amazon.whisperjoin.deviceprovisi[...]vicetestapp.WelcomeActivity$_13109#0
+02-21 14:15:39.569  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af1d50 | 0000 | RGBA_8888    |    0.0    0.0 1080.0   78.0 |    0    0 1080   78 | StatusBar$_5405#0
+02-21 14:15:39.569  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af2650 | 0000 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  438 1080  780 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_9814#0
+02-21 14:15:39.569  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7aebdb0 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2214 1080 2340 | NavigationBar0$_5405#0
+02-21 14:15:39.569  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7aefb90 | 0000 | RGBA_8888    |    0.0    0.0
+02-21 14:15:39.569  4681  4681 D SurfaceFlinger:  1080.0  151.0 |    0    0 1080  151 | ScreenDecorOverlay$_5405#0
+02-21 14:15:39.569  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af0130 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  151.0 |    0 2189 1080 2340 | ScreenDecorOverlayBottom$_5405#0
+02-21 14:15:39.569  4681  4681 D SurfaceFlinger: 
+02-21 14:15:39.625  5016  5559 V MdnieScenarioControlService: mAclOffEnabled : false mAclPreviewState : false mAclCompensationState : false
+02-21 14:15:39.629  5740  5740 W PredictionUiStateManager: predictor callback target : 9
+02-21 14:15:39.732  5740  5740 I FastBitmapDrawable: animatePress : false  immediate : true invalidate : true
+02-21 14:15:39.732  5740  5740 W AppTransitionAnimatorImpl: onAnimationEnd - APP IN, Execution time for each frame : Start-(1)-0-(0)-0-(11)-0-(17)-0-(16)-0-(17)-0-(16)-1-(16)-0-(17)-0-(17)-1-(15)-0-(17)-0-(17)-0-(16)-0-(17)-0-(17)-0-(16)-1-(16)-0-End
+02-21 14:15:39.732  5016  5896 D WindowManager: app-onAnimationFinished(): mOuter=com.android.server.wm.RemoteAnimationController@3152d18
+02-21 14:15:39.732  5016  5896 D WindowManager: onAnimationFinished(): mPendingAnimations=2, caller=
+02-21 14:15:39.732  5016  5896 D WindowManager: app-release(): mOuter=com.android.server.wm.RemoteAnimationController@3152d18
+02-21 14:15:39.732  5016  5896 D WindowManager: onAnimationFinished(): Notify animation finished:
+02-21 14:15:39.733  5016  5896 I WindowManager: Reparenting to original parent: Surface(name=DefaultTaskDisplayArea)/@0xde07bcd, destroy=true, surface=Surface(name=Task=3140)/@0xf83e3f7
+02-21 14:15:39.733  5016  5896 I SurfaceControl: release : mNativeObject = 536705864704 - Surface(name=Surface(name=Task=3140)/@0xf83e3f7 - animation-leash)/@0x2a78264
+02-21 14:15:39.733  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536705864704]
+02-21 14:15:39.733  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536705864704]
+02-21 14:15:39.735  5016  5896 D WindowManager: 	container=Task{a97a16c #3140 visible=false type=standard mode=fullscreen translucent=true A=10308:com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal U=0 StackId=3140 sz=1}
+02-21 14:15:39.735  5016  5896 I WindowManager: Reparenting to original parent: Surface(name=DefaultTaskDisplayArea)/@0xde07bcd, destroy=true, surface=Surface(name=Task=1)/@0xa71758d
+02-21 14:15:39.735  5016  5896 I SurfaceControl: release : mNativeObject = 536705886656 - Surface(name=Surface(name=Task=1)/@0xa71758d - animation-leash)/@0xd4353f6
+02-21 14:15:39.735  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536705886656]
+02-21 14:15:39.735  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536705886656]
+02-21 14:15:39.735  5016  5896 V WindowManager: Setting visibility of Window{dd1a16c u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: false, caller=com.android.server.wm.WindowContainer.sendAppVisibilityToClients:1017 com.android.server.wm.ActivityRecord.setClientVisible:6326 com.android.server.wm.ActivityRecord.onAnimationFinished:7078 com.android.server.wm.WindowContainer.doAnimationFinished:2639 com.android.server.wm.WindowContainer.onAnimationFinished:2648 
+02-21 14:15:39.736  5016  5896 V WindowManager: Updating vis of wallpaper Window{3d8ea85 u0 com.android.systemui.ImageWallpaper}: false from:
+02-21 14:15:39.736  5016  5896 V WindowManager:   com.android.server.wm.WallpaperWindowToken.updateWallpaperWindows:169
+02-21 14:15:39.736  5016  5896 V WindowManager:   com.android.server.wm.WallpaperController.updateWallpaperTokens:684
+02-21 14:15:39.736  5016  5896 V WindowManager:   com.android.server.wm.WallpaperController.adjustWallpaperWindows:723
+02-21 14:15:39.736  5016  5896 V WindowManager:   com.android.server.wm.DisplayContent.applySurfaceChangesTransaction:4783
+02-21 14:15:39.736  5405  6454 D WallpaperService: dispatchAppVisibility onVisibilityChanged(): false
+02-21 14:15:39.736  5405  5405 I ImageWallpaper:  onVisibilityChanged false
+02-21 14:15:39.736  5405  5405 D WallpaperService: reportVisibility onVisibilityChanged visible: false
+02-21 14:15:39.737  5016  5896 D SurfaceControl: hide : mNativeObject = 537243994128 - sc.mNativeObject = 536705750352 - Surface(name=com.android.systemui.ImageWallpaper$_5405)/@0xfaf6c7e
+02-21 14:15:39.737  5016  5896 D SurfaceControl: nativeSetFlags Done : Surface(name=com.android.systemui.ImageWallpaper$_5405)/@0xfaf6c7e
+02-21 14:15:39.737  5016  5896 D SurfaceControl: hide : mNativeObject = 537242839568 - sc.mNativeObject = 536705832448 - Surface(name=ActivityRecord{6f4edd7 u0 com.sec.android.app.launcher/.activities.LauncherActivity t3131})/@0x572f9ad
+02-21 14:15:39.737  5016  5896 D SurfaceControl: nativeSetFlags Done : Surface(name=ActivityRecord{6f4edd7 u0 com.sec.android.app.launcher/.activities.LauncherActivity t3131})/@0x572f9ad
+02-21 14:15:39.737  5016  5896 D SurfaceControl: hide : mNativeObject = 537243632976 - sc.mNativeObject = 536706000336 - Surface(name=com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740)/@0x6d2a9d7
+02-21 14:15:39.737  5016  5896 D SurfaceControl: nativeSetFlags Done : Surface(name=com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740)/@0x6d2a9d7
+02-21 14:15:39.739  5016  5896 D WindowManager: 	container=Task{8041175 #1 visible=false type=home mode=fullscreen translucent=true I=com.sec.android.app.launcher/.activities.LauncherActivity U=0 StackId=1 sz=1}
+02-21 14:15:39.739  5016  5896 I WindowManager: Reparenting to original parent: Surface(name=Leaf:0:1)/@0xce06ed7, destroy=true, surface=Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8
+02-21 14:15:39.739  5016  5896 I SurfaceControl: release : mNativeObject = 536705749568 - Surface(name=Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8 - animation-leash)/@0x8652ccd
+02-21 14:15:39.739  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536705749568]
+02-21 14:15:39.739  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536705749568]
+02-21 14:15:39.739  5016  5896 D WindowManager: 	wallpaper=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde}
+02-21 14:15:39.739  4681  4699 I Layer   : id=394 removeFromCurrentState Surface(name=Task=1)/@0xa71758d - animation-leash#0 (63)
+02-21 14:15:39.739  4681  4699 I Layer   : id=395 removeFromCurrentState Surface(name=Task=3140)/@0xf83e3f7 - animation-leash#0 (63)
+02-21 14:15:39.739  5016  5896 I WindowManager: Finishing remote animation
+02-21 14:15:39.740  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.740  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.748  4681  4681 E Layer   : [Surface(name=Task=3140)/@0xf83e3f7 - animation-leash#0] No local sync point found
+02-21 14:15:39.748  4681  4681 E Layer   : [Surface(name=Task=1)/@0xa71758d - animation-leash#0] No local sync point found
+02-21 14:15:39.749  4681  4700 I Layer   : id=396 removeFromCurrentState Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8 - animation-leash#0 (63)
+02-21 14:15:39.750  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.750  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.754  4681  4681 D SurfaceFlinger: Display 0 HWC layers:
+02-21 14:15:39.754  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af1330 | 0002 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.amazon.whisperjoin.deviceprovisi[...]vicetestapp.WelcomeActivity$_13109#0
+02-21 14:15:39.754  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af1d50 | 0000 | RGBA_8888    |    0.0    0.0 1080.0   78.0 |    0    0 1080   78 | StatusBar$_5405#0
+02-21 14:15:39.754  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af2650 | 0000 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  438 1080  780 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_9814#0
+02-21 14:15:39.754  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7aebdb0 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2214 1080 2340 | NavigationBar0$_5405#0
+02-21 14:15:39.754  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7aefb90 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  151.0 |    0    0 1080  151 | ScreenDecorOverlay$_5405#0
+02-21 14:15:39.754  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af0130 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  151.0 |    0 2189 1080 2340 | ScreenDecorOverlayBottom$_5405#0
+02-21 14:15:39.754  4681  4681 D SurfaceFlinger: 
+02-21 14:15:39.754  4681  4700 E BufferQueueProducer: [com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740#0](id:124900000036,api:0,p:-1,c:4681) disconnect: not connected (req=1)
+02-21 14:15:39.754  5740  7374 W libEGL  : EGLNativeWindowType 0x7e162d5b60 disconnect failed
+02-21 14:15:39.754  5016  5189 V WindowManager: Relayout Window{dd1a16c u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=8 req=1080x2340
+02-21 14:15:39.758  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.758  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.759  5016  5189 V WindowManager: Relayout hash=dd1a16c, pid=5740: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f2
+02-21 14:15:39.759  5016  5189 V WindowManager:   fl=81910100
+02-21 14:15:39.759  5016  5189 V WindowManager:   pfl=16020000
+02-21 14:15:39.759  5016  5189 V WindowManager:   vsysui=1700
+02-21 14:15:39.759  5016  5189 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+02-21 14:15:39.759  5016  5189 V WindowManager:   fitSides= naviIconColor=0}
+02-21 14:15:39.759  5740  5740 I SurfaceControl: release : mNativeObject = 536705718432 - Surface(name=null)/@0x1f902f3
+02-21 14:15:39.759  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705718432]
+02-21 14:15:39.759  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705718432]
+02-21 14:15:39.760  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)8 dur=5 res=0x5 s={false 0} ch=true fn=37
+02-21 14:15:39.760  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: stopped(true) old=false
+02-21 14:15:39.761  5740  5740 W LauncherAppWidgetHost: setListenIfResumed, mFlags = 4
+02-21 14:15:39.761  5016  5189 I AppWidgetServiceImpl: stopListening callbacks : null
+02-21 14:15:39.761  5740  5740 W Launcher.NotificationListener: removeNotificationsChangedListener
+02-21 14:15:39.761  5740  5740 I BadgeCountUpdaterImpl: onNotificationsChangedDisConnected
+02-21 14:15:39.761  5740  5740 I Launcher.NotificationListener: unregisterObserver, this is not notificationService!!
+02-21 14:15:39.762  5740  5740 I SurfaceControl: release : mNativeObject = 536705742400 - Surface(name=Surface(name=Task=3140)/@0xf83e3f7 - animation-leash)/@0xcbe5f72
+02-21 14:15:39.762  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705742400]
+02-21 14:15:39.762  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705742400]
+02-21 14:15:39.762  5740  5740 I SurfaceControl: release : mNativeObject = 536705759088 - Surface(name=Surface(name=Task=1)/@0xa71758d - animation-leash)/@0xa92f47d
+02-21 14:15:39.762  4681  4700 I SurfaceFlinger: id=395 Removed Surface(name=Task=3140)/@0xf83e3f7 - animation-leash#0 (63)
+02-21 14:15:39.762  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705759088]
+02-21 14:15:39.762  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705759088]
+02-21 14:15:39.762  5740  5740 I SurfaceControl: release : mNativeObject = 536705733776 - Surface(name=Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8 - animation-leash)/@0xd7fd040
+02-21 14:15:39.762  4681  4700 I SurfaceFlinger: id=394 Removed Surface(name=Task=1)/@0xa71758d - animation-leash#0 (63)
+02-21 14:15:39.762  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705733776]
+02-21 14:15:39.762  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705733776]
+02-21 14:15:39.762  4681  4700 I SurfaceFlinger: id=396 Removed Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8 - animation-leash#0 (63)
+02-21 14:15:39.765  4681  4681 I Layer   : id=395[1] Destroyed Surface(name=Task=3140)/@0xf83e3f7 - animation-leash#0
+02-21 14:15:39.765  4681  4681 I Layer   : id=394[1] Destroyed Surface(name=Task=1)/@0xa71758d - animation-leash#0
+02-21 14:15:39.765  4681  4681 I Layer   : id=396[1] Destroyed Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8 - animation-leash#0
+02-21 14:15:39.767  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:39.767  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:39.768  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:39.768  7526 25785 I PBSessionCacheImpl: Deleted sessionId[33101311880742425] from persistence.
+02-21 14:15:39.768  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:39.768  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:39.769  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:39.769  5016  5896 E WindowManager: win=Window{dd1a16c u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5183 com.android.server.wm.ActivityRecord.destroySurfaces:5164 com.android.server.wm.ActivityRecord.notifyAppStopped:5223 com.android.server.wm.ActivityRecord.activityStopped:5850 com.android.server.wm.ActivityTaskManagerService.activityStopped:2583 android.app.IActivityTaskManager$Stub.onTransact:2201 android.os.Binder.execTransactInternal:1190 
+02-21 14:15:39.769  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:39.769  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:39.769  5016  5896 I WindowManager: Destroying surface Surface(name=com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740)/@0x6d2a9d7 called by com.android.server.wm.WindowStateAnimator.destroySurface:1794 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:765 com.android.server.wm.WindowState.destroySurfaceUnchecked:3870 com.android.server.wm.WindowState.destroySurface:3844 com.android.server.wm.ActivityRecord.destroySurfaces:5183 com.android.server.wm.ActivityRecord.destroySurfaces:5164 com.android.server.wm.ActivityRecord.notifyAppStopped:5223 com.android.server.wm.ActivityRecord.activityStopped:5850 
+02-21 14:15:39.770  5016  5896 I SurfaceControl: release : mNativeObject = 536706000336 - Surface(name=com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740)/@0x6d2a9d7
+02-21 14:15:39.770  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536706000336]
+02-21 14:15:39.770  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536706000336]
+02-21 14:15:39.770  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:39.770  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:39.770  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:39.771  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:39.771  4681  4699 I Layer   : id=382 removeFromCurrentState com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740#0 (60)
+02-21 14:15:39.771  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:39.771  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:39.771  7526  8252 I WorkerManager: Releasing worker: [legacyui]/[63]/[com.google.android.apps.gsa.staticplugins.by.a]
+02-21 14:15:39.771  7526  8252 I WorkerManager: Releasing worker: [legacyui]/[63]/[com.google.android.apps.gsa.staticplugins.by.a]
+02-21 14:15:39.771  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:39.771  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:39.772  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:39.772  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:39.772  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.772  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:39.772  7526  8252 I WorkerManager: Releasing worker: [conversation]/[44]/[com.google.android.apps.gsa.staticplugins.aj.a]
+02-21 14:15:39.772  7526  8252 I WorkerManager: Releasing worker: [conversation]/[44]/[com.google.android.apps.gsa.staticplugins.aj.a]
+02-21 14:15:39.772  7526  8252 I WorkerManager: Releasing worker: [message]/[68]/[com.google.android.apps.gsa.staticplugins.messages.n]
+02-21 14:15:39.772  7526  8252 I WorkerManager: Releasing worker: [message]/[68]/[com.google.android.apps.gsa.staticplugins.messages.n]
+02-21 14:15:39.773  7526  8252 I WorkerManager: Releasing worker: [context]/[50]/[com.google.android.apps.gsa.staticplugins.ah.h]
+02-21 14:15:39.773  7526  8252 I WorkerManager: Releasing worker: [context]/[50]/[com.google.android.apps.gsa.staticplugins.ah.h]
+02-21 14:15:39.773  7526  8252 I WorkerManager: Releasing worker: [actionvelogging]/[2]/[com.google.android.apps.gsa.staticplugins.a.d]
+02-21 14:15:39.773  7526  8252 I WorkerManager: Releasing worker: [actionvelogging]/[2]/[com.google.android.apps.gsa.staticplugins.a.d]
+02-21 14:15:39.773  7526  8252 I WorkerManager: Releasing worker: [sharedmicrodetection]/[17]/[com.google.android.apps.gsa.staticplugins.microdetection.aj]
+02-21 14:15:39.773  7526  8252 I WorkerManager: Releasing worker: [sharedmicrodetection]/[17]/[com.google.android.apps.gsa.staticplugins.microdetection.aj]
+02-21 14:15:39.773  7526  8252 I WorkerManager: Releasing worker: [audio]/[4]/[com.google.android.apps.gsa.staticplugins.m.i]
+02-21 14:15:39.773  7526  8252 I WorkerManager: Releasing worker: [audio]/[4]/[com.google.android.apps.gsa.staticplugins.m.i]
+02-21 14:15:39.773  7526  8252 I WorkerManager: Releasing worker: [audio]/[4]/[com.google.android.apps.gsa.staticplugins.m.i]
+02-21 14:15:39.773  7526  8252 I WorkerManager: Releasing worker: [audio]/[4]/[com.google.android.apps.gsa.staticplugins.m.i]
+02-21 14:15:39.774  7526  8252 I WorkerManager: Releasing worker: [progress]/[379]/[com.google.android.apps.gsa.staticplugins.cy.a]
+02-21 14:15:39.774  4681  4699 I SurfaceFlinger: id=382 Removed com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740#0 (60)
+02-21 14:15:39.774  7526  8252 I WorkerManager: Releasing worker: [progress]/[379]/[com.google.android.apps.gsa.staticplugins.cy.a]
+02-21 14:15:39.774  5016  5067 D SehCodecSolutionService: Update top [com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal]
+02-21 14:15:39.774  7526  8252 I WorkerManager: Releasing worker: [logo_header]/[71]/[com.google.android.apps.gsa.staticplugins.ca.a]
+02-21 14:15:39.774  7526  8252 I WorkerManager: Releasing worker: [logo_header]/[71]/[com.google.android.apps.gsa.staticplugins.ca.a]
+02-21 14:15:39.775  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:39.775  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:39.776  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:39.776  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:39.776  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:39.776  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:39.776  7526  8252 W SearchServiceCore: Abort, client detached.
+02-21 14:15:39.782  4681  4681 I Layer   : id=382[1] Destroyed com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740#0
+02-21 14:15:39.905  5016  5559 D MdnieScenarioControlService:  packageName : com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal    className : com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity
+02-21 14:15:39.905  5016  5559 V MdnieScenarioControlService: setUIMode from UI function(3)
+02-21 14:15:40.006  5016  5559 V MdnieScenarioControlService: mAclOffEnabled : false mAclPreviewState : false mAclCompensationState : false
+02-21 14:15:40.010  5016 25787 D TspStateManager: update cmd=set_grip_data,1,45,7,15,702
+02-21 14:15:40.093  4617 25779 I HYPER-HAL: [ResourceManager.cpp]removeResource(): [CPUMinFreq] RemoveResource Request ID : 12668078
+02-21 14:15:40.093  4617 25779 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 12668078
+02-21 14:15:40.148  5299  5299 I wpa_supplicant: Heartbeat 1865
+02-21 14:15:40.296  5016  5175 D InputReader: Btn_touch(5): value=1 when=18585.022968
+02-21 14:15:40.296  5016  5175 I InputReader: Touch event's action is 0x0 (id=2, t=0) [pCnt=1, s=0.46 ] when=18585.022968
+02-21 14:15:40.296  5016  5174 I InputDispatcher: Delivering touch to (5405): action: 0x0, f=0x0, d=0, '97aa58f', t=1 +(0,-2214)
+02-21 14:15:40.296  5405  5405 I ViewRootImpl@38db4db[NavigationBar0]: ViewPostIme pointer 0
+02-21 14:15:40.296  5405  5405 D KeyButtonView: Motion event=0
+02-21 14:15:40.297  5405  5405 D KeyButtonView: sendEvent() mCode=4, action=0, flags=0, callers=com.android.systemui.statusbar.policy.KeyButtonView.onTouchEvent:302 android.view.View.dispatchTouchEvent:15199 android.view.ViewGroup.dispatchTransformedTouchEvent:3920 android.view.ViewGroup.dispatchTouchEvent:3535 android.view.ViewGroup.dispatchTransformedTouchEvent:3920 
+02-21 14:15:40.297  5405  5405 I KeyButtonView: Back button event: ACTION_DOWN
+02-21 14:15:40.297  5405  6077 I KeyButtonView: injectInputEvent - 4
+02-21 14:15:40.297  5405  5405 V Vibrator: semGetSupportedVibrationType: ret=1
+02-21 14:15:40.298  5016  5189 D InputDispatcher: Inject key (5405): action=0, f=0x48, d=0, time=18585023000000
+02-21 14:15:40.298  5016  5189 D KeyCombinationManager: Can not stop SystemLockTaskMode. lockTaskModeEnabled=false touchExplorationEnabled=false interactionControlEnabled=false
+02-21 14:15:40.298  5016  5189 D WindowManager: interceptKeyTq s_result=1
+02-21 14:15:40.298  5016  5189 D PhoneWindowManagerExt: f.b. a=false id=1 he=false eme=false ksno = false callingPackage=android Caller=com.android.server.policy.PhoneWindowManager.performHapticFeedback:6359 com.android.server.policy.PhoneWindowManager.performHapticFeedback:6350 com.android.server.policy.PhoneWindowManager.interceptKeyBeforeQueueing:4874 com.android.server.wm.InputManagerCallback.interceptKeyBeforeQueueing:333 com.android.server.input.InputManagerService.interceptKeyBeforeQueueing:3640 
+02-21 14:15:40.298  5016  5189 D PhoneWindowManagerExt: haptic disabled by policy
+02-21 14:15:40.299  5016  5174 I InputDispatcher: Delivering key to (13109): B action: 0x0 (0), f=0x48, m=0x0, d=0, 'de9f2b8'
+02-21 14:15:40.300  7479  7479 I HBD     : a skip onKeyDown as physical keyboard not connected 
+02-21 14:15:40.300  7479  7479 I HBD     : HoneyBoardService onKeyDown consumed:false 
+02-21 14:15:40.301 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: ViewPostIme key 0
+02-21 14:15:40.328  5016  5175 D InputReader: Btn_touch(5): value=0 when=18585.055188
+02-21 14:15:40.328  5016  5175 I InputReader: Touch event's action is 0x1 (id=2, t=0) [pCnt=1, s=] when=18585.055188
+02-21 14:15:40.328  5016  5174 I InputDispatcher: Delivering touch to (5405): action: 0x1, f=0x0, d=0, '97aa58f', t=1 +(0,-2214)
+02-21 14:15:40.328  5405  5405 I ViewRootImpl@38db4db[NavigationBar0]: ViewPostIme pointer 1
+02-21 14:15:40.328  5405  5405 D KeyButtonView: Motion event=1
+02-21 14:15:40.329  5405  5405 D KeyButtonView: sendEvent() mCode=4, action=1, flags=0, callers=com.android.systemui.statusbar.policy.KeyButtonView.sendEvent:431 com.android.systemui.statusbar.policy.KeyButtonView.onTouchEvent:376 android.view.View.dispatchTouchEvent:15199 android.view.ViewGroup.dispatchTransformedTouchEvent:3920 android.view.ViewGroup.dispatchTouchEvent:3594 
+02-21 14:15:40.329  5405  5405 I KeyButtonView: Back button event: ACTION_UP
+02-21 14:15:40.329  5405  6077 I KeyButtonView: injectInputEvent - 4
+02-21 14:15:40.330  5016  5189 D InputDispatcher: Inject key (5405): action=1, f=0x48, d=0, time=18585055000000
+02-21 14:15:40.330  5016  5189 D WindowManager: interceptKeyTq s_result=1
+02-21 14:15:40.331  5016  5174 I InputDispatcher: Delivering key to (13109): B action: 0x1 (0), f=0x48, m=0x0, d=0, 'de9f2b8'
+02-21 14:15:40.331  7479  7479 I HBD     : HoneyBoardService onKeyUp consumed:false 
+02-21 14:15:40.332 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: ViewPostIme key 1
+02-21 14:15:40.334  5016  5189 D InputDispatcher: Focused application set to (0): 6f4edd7
+02-21 14:15:40.335  5016  5189 V WindowManager: Changing focus from Window{de9f2b8 u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6254 com.android.server.wm.DisplayContent.setFocusedApp:6704 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6675 
+02-21 14:15:40.336  5016  5189 D StatusBarManagerService: notifyRequestedSystemKey recent=false home=false
+02-21 14:15:40.336  5016  5189 D GameManagerService: TaskStackListener.onTaskFocusChanged(), taskId=3131, focused=true
+02-21 14:15:40.336  5016  5181 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}
+02-21 14:15:40.336  5016  5181 D GameManagerService: handleTaskFocused().
+02-21 14:15:40.336  5016  5181 D GameManagerService: sendFocusOutConditionally() - mPrevNotiPackage: (unknown)
+02-21 14:15:40.336  5016  5181 D GameManagerService:   handleTaskFocused(), pkgName: com.sec.android.app.launcher, clsName: com.sec.android.app.launcher.activities.LauncherActivity, userID:0
+02-21 14:15:40.337  5016  5189 V WindowManager: Prepare app transition: transit=TRANSIT_TASK_CLOSE mNextAppTransition=TRANSIT_UNSET alwaysKeepCurrent=false displayId=0 Callers=com.android.server.wm.DisplayContent.prepareAppTransition:5747 com.android.server.wm.DisplayContent.prepareAppTransition:5741 com.android.server.wm.ActivityRecord.finishIfPossible:3119 com.android.server.wm.ActivityTaskManagerService.finishActivity:2422 android.app.IActivityTaskManager$Stub.onTransact:2118 
+02-21 14:15:40.337  5016  5189 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+02-21 14:15:40.337  5016  5189 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+02-21 14:15:40.338  4601  4635 D gralloc : [mali_gralloc_allocate] begin
+02-21 14:15:40.338  4601  4635 D gralloc : buffer_descriptor: wh(1080 2340) usage_pc(0x366 0x306) hal_format(0x1) layer_count(1) sizes(0 0 0) strde(0) byte_stride(0) alloc_wh(0 0) internal_format(0x0) alloc_format(0x0) fd_count(1) plane_count(0)
+02-21 14:15:40.338  4601  4635 D gralloc : [mali_gralloc_allocate] allocation successful
+02-21 14:15:40.342  4681  4681 I Layer   : id=404[0] Destroyed Screenshot Parent
+02-21 14:15:40.349  5016  5189 I ActivityTaskManager: Remove from unknown app
+02-21 14:15:40.349  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.349  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.350  5016  5896 V ActivityManager: Changed top to 10121,ProcessRecord{60fba9b 5740:com.sec.android.app.launcher/u0a121}
+02-21 14:15:40.352  5016  5514 D MARsPolicyManager: onPackageResumedFG pkgName = com.sec.android.app.launcher, userId = 0
+02-21 14:15:40.352  5016  5514 V MARsPolicyManager: Current Home Package com.sec.android.app.launcher Resumed
+02-21 14:15:40.352  5016  5514 I SemDvfsHyPerManager: acquire hyper - AMS_APP_HOME/5016@20, type = -999
+02-21 14:15:40.353  4617  4654 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 12683186  [5016 / 20]    HINT : AMS_APP_HOME    list : 
+02-21 14:15:40.353  5016  5514 D ActivityManagerPerformance: AMP_acquire() HOME
+02-21 14:15:40.353  7210  7210 I SemDvfsHyPerManager: acquire hyper - com.sec.android.sdhms/7210@9, type = -999
+02-21 14:15:40.353  5016  5514 V WindowManager: Prepare app transition: transit=TRANSIT_TASK_CLOSE mNextAppTransition=TRANSIT_TASK_CLOSE alwaysKeepCurrent=false displayId=0 Callers=com.android.server.wm.DisplayContent.prepareAppTransition:5747 com.android.server.wm.DisplayContent.prepareAppTransition:5741 com.android.server.wm.ActivityStack.resumeTopActivityInnerLocked:2218 com.android.server.wm.ActivityStack.resumeTopActivityUncheckedLocked:1860 com.android.server.wm.RootWindowContainer.resumeFocusedStacksTopActivities:2665 
+02-21 14:15:40.354  5016  5514 V WindowManager: Setting visibility of Window{dd1a16c u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: true, caller=com.android.server.wm.WindowContainer.sendAppVisibilityToClients:1017 com.android.server.wm.ActivityRecord.setClientVisible:6326 com.android.server.wm.ActivityRecord.setVisibility:4798 com.android.server.wm.ActivityRecord.setVisibility:4697 com.android.server.wm.ActivityStack.resumeTopActivityInnerLocked:2273 
+02-21 14:15:40.354  4617  4654 I HYPER-HAL: [ResourceManager.cpp]updateResource(): [CPUMinFreq] UpdateResource Request ID : 12683186    Value : 2314000
+02-21 14:15:40.354  4617  4654 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 26060599  [7210 / 9]    HINT : APP_START    list : 
+02-21 14:15:40.355  5016  5514 V WindowManager: rotationForOrientation(orient=SCREEN_ORIENTATION_NOSENSOR (5), last=ROTATION_0 (0)); user=ROTATION_0 (0) USER_ROTATION_LOCKED
+02-21 14:15:40.355  5016  5514 V WindowOrientationListener: getProposedRotation: -1
+02-21 14:15:40.355  4617  4654 E HYPER-HAL: [HandlerSysfs.cpp]doResourceHandling(): Couldn't Open Sysfs - /sys/kernel/mm/vmscan/am_app_launch
+02-21 14:15:40.355  5016  5514 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.DisplayRotation.updateOrientation:390 com.android.server.wm.DisplayContent.updateOrientation:1695 com.android.server.wm.DisplayContent.updateOrientation:1624 com.android.server.wm.RootWindowContainer.ensureVisibilityAndConfig:2152 com.android.server.wm.ActivityStack.resumeTopActivityInnerLocked:2315 com.android.server.wm.ActivityStack.resumeTopActivityUncheckedLocked:1860 
+02-21 14:15:40.355  4617  4654 I HYPER-HAL: [ResourceManager.cpp]updateResource(): [CPUMaxFreq] UpdateResource Request ID : 26060599    Value : 2314000
+02-21 14:15:40.355  5016  5514 D TspStateManager: updateCustomValue customSetting=
+02-21 14:15:40.355  5016  5514 D TspStateManager: updateCustomValue customSetting=
+02-21 14:15:40.356  5016  5514 D MARsPolicyManager: onPackageResumedFG pkgName = com.sec.android.app.launcher, userId = 0
+02-21 14:15:40.356  5016  5514 V MARsPolicyManager: Current Home Package com.sec.android.app.launcher Resumed
+02-21 14:15:40.356  5016  5514 W WindowManager: Execute app transition: mNextAppTransition=TRANSIT_TASK_CLOSE, displayId: 0 Callers=com.android.server.wm.RootWindowContainer.executeAppTransitionForAllDisplay:2586 com.android.server.wm.ActivityStackSupervisor.reportResumedActivityLocked:2225 com.android.server.wm.ActivityRecord.completeResumeLocked:5646 com.android.server.wm.ActivityStack.resumeTopActivityInnerLocked:2409 com.android.server.wm.ActivityStack.resumeTopActivityUncheckedLocked:1860 
+02-21 14:15:40.359  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.359  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.360  5405  6454 E TaskStackListenerAbstract: onTaskSnapshotChanged called by Binder.getCallingPid() 0 android.app.ITaskStackListener$Stub.onTransact:587 android.os.Binder.execTransactInternal:1195 android.os.Binder.execTransact:1159 <bottom of call stack> 
+02-21 14:15:40.362  5016  5069 D GameManagerService: notePauseComponent(), received paused-component: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:40.365  5016  5264 W PkgPredictorService: background app without no launcher icon com.sec.android.app.launcher for.uid: 10121 userId: 0
+02-21 14:15:40.365  5016  5067 D SehCodecSolutionService: Update top [com.sec.android.app.launcher]
+02-21 14:15:40.366  5016  5069 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.sec.android.app.launcher
+02-21 14:15:40.367  5016  5896 I InputDispatcher: Focus left window (13109): de9f2b8 in display 0 0
+02-21 14:15:40.368  5016  5189 V WindowManager: Relayout Window{dd1a16c u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=4 req=1080x2340
+02-21 14:15:40.370 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-21 14:15:40.371  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.371  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.371  5016  5189 V WindowManager: Relayout hash=dd1a16c, pid=5740: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f2
+02-21 14:15:40.371  5016  5189 V WindowManager:   fl=81910100
+02-21 14:15:40.371  5016  5189 V WindowManager:   pfl=16020000
+02-21 14:15:40.371  5016  5189 V WindowManager:   vsysui=1700
+02-21 14:15:40.371  5016  5189 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+02-21 14:15:40.371  5016  5189 V WindowManager:   fitSides= naviIconColor=0}
+02-21 14:15:40.371  5016  5069 D GameManagerService: noteResumeComponent(), received resumed-component: com.sec.android.app.launcher
+02-21 14:15:40.371  5016  5181 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.sec.android.app.launcher/com.android.launcher3.uioverrides.QuickstepLauncher}
+02-21 14:15:40.371  5016  5181 D GameManagerService: handleResume().
+02-21 14:15:40.372  5016  5181 D GameManagerService: sendFocusOutConditionally() - mPrevNotiPackage: (unknown)
+02-21 14:15:40.372  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)4 dur=5 res=0x1 s={false 0} ch=false fn=-1
+02-21 14:15:40.372  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: stopped(false) old=true
+02-21 14:15:40.372  5016  5181 D GameManagerService:   handleResume(). pkgName: com.sec.android.app.launcher, isTunableApp: null
+02-21 14:15:40.373  5740  5740 W LauncherAppWidgetHost: setListenIfResumed, mFlags = 0
+02-21 14:15:40.373  5016  5181 D GameManagerService: notifyFocusInOut(). of pkg: com.sec.android.app.launcher, type: 4, isMinimized: false, isTunableApp: false
+02-21 14:15:40.374  5740  5740 I LiveIconViewUpdater: onUpdateLiveIcon 26
+02-21 14:15:40.374  5016  5181 D GameManagerService:   notifyFocusInOut(). unexpected mPrevNotiType: -1
+02-21 14:15:40.374  5016  5181 D GameManagerService:NetworkLimit: callRelease
+02-21 14:15:40.374  5740  5740 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+02-21 14:15:40.374  5016  5181 D GM:SystemHelper: callReleaseBlock needReleaseBlock:false
+02-21 14:15:40.374  5740  5740 I WallpapersButton: updateVisibility - mWallpaperType : 0
+02-21 14:15:40.374  5740  5740 I ThemesButton: updateVisibility - sThemeStoreType : 1
+02-21 14:15:40.374  5740  5740 I LiveIconViewUpdater: onUpdateLiveIcon 66
+02-21 14:15:40.374  5740  5740 I LiveIconViewUpdater: onUpdateLiveIcon 69
+02-21 14:15:40.374  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: stopped(false) old=false
+02-21 14:15:40.374  5740  5740 I Launcher: !@Boot_DEBUG: Launcher.onResume()
+02-21 14:15:40.374  5740  5740 I Launcher: !@Boot_EBS_D: Launcher.onResume()
+02-21 14:15:40.375  5740  5740 I FastBitmapDrawable: animatePress : false  immediate : true invalidate : true
+02-21 14:15:40.376  5740  5740 I SPayUpdater: updateSpayHandler, show = false, currentDefaultPage = false
+02-21 14:15:40.376  7526  8252 W SessionLifecycleManager: Handover failed. Creating new session controller.
+02-21 14:15:40.376  5740  8412 I Launcher: DisplayMetrics from Resources : DisplayMetrics{density=2.625, width=1080, height=2131, scaledDensity=2.8875, xdpi=403.411, ydpi=404.326}
+02-21 14:15:40.376  5740  5740 I Launcher: setWallpaperOffsets
+02-21 14:15:40.376  5740  8412 I Launcher: realMetrics from Wm : DisplayMetrics{density=2.625, width=1080, height=2340, scaledDensity=2.625, xdpi=403.411, ydpi=404.326}
+02-21 14:15:40.376  5740  8412 I Launcher: DeviceProfile, isLand : false, isMultiWin :false, availableWidthPx : 1080, availableHeightPx : 2194
+02-21 14:15:40.378  5016  5016 I Pageboost: package null
+02-21 14:15:40.378  7526  8252 E PBSessionCacheImpl: sessionId[33101311880742425] not persisted.
+02-21 14:15:40.379  6527  6527 E pageboostd: Received HALT command code 2
+02-21 14:15:40.379  7526  8252 I WorkerManager: Releasing worker: [service]/[27]/[com.google.android.apps.gsa.search.core.service.bw]
+02-21 14:15:40.379  7526  8252 I WorkerManager: Releasing worker: [service]/[27]/[com.google.android.apps.gsa.search.core.service.bw]
+02-21 14:15:40.379  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:40.379  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:40.380  7526 25785 I PBSessionCacheImpl: Deleted sessionId[33101311880742425] from persistence.
+02-21 14:15:40.380  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:40.380  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:40.380  5740  5740 W Launcher.NotificationListener: setNotificationsChangedListener connected : true
+02-21 14:15:40.380  5740  5740 I BadgeCountUpdaterImpl: onNotificationsChangedConnected
+02-21 14:15:40.380  5740  5740 I Launcher.NotificationListener: registerObserver this is not notificationService!!
+02-21 14:15:40.380  5740  5740 I Launcher.NotificationListener: onNotificationFullRefresh
+02-21 14:15:40.380  5740  5898 I InstallPairAppsReceiver: Pair apps key is null
+02-21 14:15:40.380  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:40.380  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:40.381  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:40.381  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:40.382  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:40.382  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:40.382  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:40.382  7526  8252 I WorkerManager: Releasing worker: [searchboxroot]/[24]/[com.google.android.apps.gsa.staticplugins.searchboxroot.z]
+02-21 14:15:40.384  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:40.384  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:40.385  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:40.385  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:40.385  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:40.385  7526  8252 I WorkerManager: Releasing worker: [actions]/[1]/[com.google.android.apps.gsa.staticplugins.actions.p]
+02-21 14:15:40.388  5016  5896 V WindowManager: Relayout Window{dd1a16c u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=0 req=1080x2340
+02-21 14:15:40.389  5740  5898 I Launcher.NotificationListener: notificationIsValidForUI : com.google.android.setupwizard missingTitleAndText : false isGroupHeader : false
+02-21 14:15:40.389  5740  5898 I Launcher.NotificationListener: notificationIsValidForUI : com.sec.android.app.samsungapps missingTitleAndText : false isGroupHeader : false
+02-21 14:15:40.389  5740  5898 I Launcher.NotificationListener: notificationIsValidForUI : com.aura.oobe.samsung missingTitleAndText : false isGroupHeader : false
+02-21 14:15:40.389  5740  5898 I Launcher.NotificationListener: notificationIsValidForUI : com.google.android.gm missingTitleAndText : false isGroupHeader : true
+02-21 14:15:40.389  5740  5898 I Launcher.NotificationListener: notificationIsValidForUI : com.google.android.gm missingTitleAndText : false isGroupHeader : false
+02-21 14:15:40.390  5016  5896 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+02-21 14:15:40.390  5740  5898 I Launcher.NotificationListener: Full refresh isConnected : true active size : 4
+02-21 14:15:40.390  4681  5358 I SurfaceFlinger: id=405 createSurf (1080x2340),1 flag=4, com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740#0
+02-21 14:15:40.390  5016  5896 D WindowManager: makeSurface duration=0 name=com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740
+02-21 14:15:40.391  5016  5896 V WindowManager: Changing focus from null to Window{dd1a16c u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6254 com.android.server.wm.WindowManagerService.relayoutWindow:2697 com.android.server.wm.Session.relayout:217 
+02-21 14:15:40.392  5016 25778 I SystemUiVisibilityPolicyController: handleMessage: entry what = 1
+02-21 14:15:40.392  5016  5896 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0xb9eb9fc
+02-21 14:15:40.392  5016  5896 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{48ffef3 android.os.BinderProxy@c28242d})/@0xb4fe945, destroy=false, surface=Surface(name=4735855 StatusBar)/@0x6fe05bc
+02-21 14:15:40.392  5016  5896 I SurfaceControl: release : mNativeObject = 536705722912 - Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0xb9eb9fc
+02-21 14:15:40.392  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536705722912]
+02-21 14:15:40.392  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536705722912]
+02-21 14:15:40.392  5016  5896 I WindowManager: Reparenting to leash, surface=Surface(name=4735855 StatusBar)/@0x6fe05bc, leashParent=Surface(name=WindowToken{48ffef3 android.os.BinderProxy@c28242d})/@0xb4fe945
+02-21 14:15:40.392  9814  9814 I TrayStateController: systemUiVisibilityChanged : 0 0
+02-21 14:15:40.392  4681  4699 I SurfaceFlinger: id=406 createSurf (0x0),-1 flag=24000, Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash#1
+02-21 14:15:40.393  5016  5896 D WindowManager: makeSurface duration=0 leash=Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0x93bb6c7
+02-21 14:15:40.393  5016  5896 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0xd4ff6da
+02-21 14:15:40.393  5016  5896 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{a46e484 android.os.BinderProxy@cfa2116})/@0xc934c4a, destroy=false, surface=Surface(name=97aa58f NavigationBar0)/@0x716adb5
+02-21 14:15:40.393  5016  5896 I SurfaceControl: release : mNativeObject = 536706011088 - Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0xd4ff6da
+02-21 14:15:40.393  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536706011088]
+02-21 14:15:40.393  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536706011088]
+02-21 14:15:40.393  5016  5896 I WindowManager: Reparenting to leash, surface=Surface(name=97aa58f NavigationBar0)/@0x716adb5, leashParent=Surface(name=WindowToken{a46e484 android.os.BinderProxy@cfa2116})/@0xc934c4a
+02-21 14:15:40.393  4681  4699 I SurfaceFlinger: id=407 createSurf (0x0),-1 flag=24000, Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash#1
+02-21 14:15:40.394  5016  5896 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0x13bc41d
+02-21 14:15:40.394  5016  5896 D StatusBarManagerService: notifyRequestedSystemKey recent=false home=false
+02-21 14:15:40.394  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.394  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.395  5016  5896 V WindowManager: Relayout hash=dd1a16c, pid=5740: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f2
+02-21 14:15:40.395  5016  5896 V WindowManager:   fl=81910100
+02-21 14:15:40.395  5016  5896 V WindowManager:   pfl=16020000
+02-21 14:15:40.395  5016  5896 V WindowManager:   vsysui=1700
+02-21 14:15:40.395  5016  5896 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+02-21 14:15:40.395  5016  5896 V WindowManager:   fitSides= screenDimDuration=200000 naviIconColor=0}
+02-21 14:15:40.395  5016  5896 I SurfaceControl: release : mNativeObject = 536706010416 - Surface(name=com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_5740)/@0x7a18692
+02-21 14:15:40.395  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536706010416]
+02-21 14:15:40.395  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536706010416]
+02-21 14:15:40.396  5016 25778 I SystemUiVisibilityPolicyController: handleMessage: entry what = 1
+02-21 14:15:40.396  9814  9814 I TrayStateController: systemUiVisibilityChanged : 2 0
+02-21 14:15:40.397  7526  8252 I WorkerManager: Releasing worker: [legacyui]/[63]/[com.google.android.apps.gsa.staticplugins.by.a]
+02-21 14:15:40.397  7526  8252 I WorkerManager: Releasing worker: [legacyui]/[63]/[com.google.android.apps.gsa.staticplugins.by.a]
+02-21 14:15:40.397  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:40.397  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:40.398  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:40.398  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:40.398  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:40.398  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:40.398  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:40.399  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:40.399  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:40.399  7526  8252 I WorkerManager: Releasing worker: [searchplate]/[26]/[com.google.android.apps.gsa.staticplugins.dq.c]
+02-21 14:15:40.399  7526  8252 I WorkerManager: Releasing worker: [conversation]/[44]/[com.google.android.apps.gsa.staticplugins.aj.a]
+02-21 14:15:40.400  7526  8252 I WorkerManager: Releasing worker: [conversation]/[44]/[com.google.android.apps.gsa.staticplugins.aj.a]
+02-21 14:15:40.400  7526  8252 I WorkerManager: Releasing worker: [message]/[68]/[com.google.android.apps.gsa.staticplugins.messages.n]
+02-21 14:15:40.400  7526  8252 I WorkerManager: Releasing worker: [message]/[68]/[com.google.android.apps.gsa.staticplugins.messages.n]
+02-21 14:15:40.401  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)0 dur=12 res=0x7 s={true 541538866144} ch=true fn=-1
+02-21 14:15:40.402  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:10761 android.view.ViewRootImpl.performTraversals:3733 android.view.ViewRootImpl.doTraversal:2519 
+02-21 14:15:40.402  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: [DP] pd() Asnyc report
+02-21 14:15:40.402  4681  4699 I Layer   : id=400 removeFromCurrentState Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash#0 (62)
+02-21 14:15:40.402  7526  8252 I WorkerManager: Releasing worker: [context]/[50]/[com.google.android.apps.gsa.staticplugins.ah.h]
+02-21 14:15:40.402  4681  4699 I Layer   : id=401 removeFromCurrentState Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash#0 (62)
+02-21 14:15:40.402  4681  4699 I Layer   : id=24 removeFromCurrentState 97aa58f NavigationBar0#0 (62)
+02-21 14:15:40.402  4681  4699 I Layer   : id=29 removeFromCurrentState NavigationBar0$_5405#0 (62)
+02-21 14:15:40.402  4681  4699 I Layer   : id=24 addToCurrentState 97aa58f NavigationBar0#0 (62)
+02-21 14:15:40.402  4681  4699 I Layer   : id=29 addToCurrentState NavigationBar0$_5405#0 (62)
+02-21 14:15:40.403  7526  8252 I WorkerManager: Releasing worker: [context]/[50]/[com.google.android.apps.gsa.staticplugins.ah.h]
+02-21 14:15:40.403  4601  4635 D gralloc : [mali_gralloc_allocate] begin
+02-21 14:15:40.404  4601  4635 D gralloc : buffer_descriptor: wh(1080 2340) usage_pc(0x40000000000b00 0x40000000000b00) hal_format(0x1) layer_count(1) sizes(0 0 0) strde(0) byte_stride(0) alloc_wh(0 0) internal_format(0x0) alloc_format(0x0) fd_count(1) plane_count(0)
+02-21 14:15:40.404  7526  8252 I WorkerManager: Releasing worker: [actionvelogging]/[2]/[com.google.android.apps.gsa.staticplugins.a.d]
+02-21 14:15:40.405  7526  8252 I WorkerManager: Releasing worker: [actionvelogging]/[2]/[com.google.android.apps.gsa.staticplugins.a.d]
+02-21 14:15:40.406  7526  8252 I WorkerManager: Releasing worker: [sharedmicrodetection]/[17]/[com.google.android.apps.gsa.staticplugins.microdetection.aj]
+02-21 14:15:40.406  7526  8252 I WorkerManager: Releasing worker: [sharedmicrodetection]/[17]/[com.google.android.apps.gsa.staticplugins.microdetection.aj]
+02-21 14:15:40.406  4601  4635 D gralloc : [mali_gralloc_allocate] allocation successful
+02-21 14:15:40.407  4601  4635 D gralloc : [mali_gralloc_allocate] begin
+02-21 14:15:40.408  4601  4635 D gralloc : buffer_descriptor: wh(1080 2340) usage_pc(0x40000000000b00 0x40000000000b00) hal_format(0x1) layer_count(1) sizes(0 0 0) strde(0) byte_stride(0) alloc_wh(0 0) internal_format(0x0) alloc_format(0x0) fd_count(1) plane_count(0)
+02-21 14:15:40.408 13109 13109 I SurfaceControl: release : mNativeObject = 536705726048 - Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x1b9061c
+02-21 14:15:40.408 13109 13109 I SurfaceControl: nativeRelease nativeObject s[536705726048]
+02-21 14:15:40.408 13109 13109 I SurfaceControl: nativeRelease nativeObject e[536705726048]
+02-21 14:15:40.408 13109 13109 I SurfaceControl: release : mNativeObject = 536705743408 - Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0xa5e6808
+02-21 14:15:40.408 13109 13109 I SurfaceControl: nativeRelease nativeObject s[536705743408]
+02-21 14:15:40.408 13109 13109 I SurfaceControl: nativeRelease nativeObject e[536705743408]
+02-21 14:15:40.409  4681  5924 I SurfaceFlinger: id=401 Removed Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash#0 (62)
+02-21 14:15:40.409 13109 13109 I SurfaceControl: release : mNativeObject = 536705709024 - Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0xc14eba1
+02-21 14:15:40.409 13109 13109 I SurfaceControl: nativeRelease nativeObject s[536705709024]
+02-21 14:15:40.409 13109 13109 I SurfaceControl: nativeRelease nativeObject e[536705709024]
+02-21 14:15:40.409  4601  4635 D gralloc : [mali_gralloc_allocate] allocation successful
+02-21 14:15:40.410  4681  4699 I SurfaceFlinger: id=400 Removed Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash#0 (62)
+02-21 14:15:40.414  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.414  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.417  4681  4681 I Layer   : id=400[1] Destroyed Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash#0
+02-21 14:15:40.417  4681  4681 I Layer   : id=401[1] Destroyed Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash#0
+02-21 14:15:40.419  7526  8252 I WorkerManager: Releasing worker: [networkmonitor]/[39]/[com.google.android.apps.gsa.staticplugins.cj.i]
+02-21 14:15:40.420  7526  8252 I WorkerManager: Releasing worker: [networkmonitor]/[39]/[com.google.android.apps.gsa.staticplugins.cj.i]
+02-21 14:15:40.420  5016  5069 D PowerManagerService: [api] setScreenDimDurationOverrideFromWindowManagerInternal: timeoutMillis: 200000
+02-21 14:15:40.421  7526  8252 I WorkerManager: Releasing worker: [audio]/[4]/[com.google.android.apps.gsa.staticplugins.m.i]
+02-21 14:15:40.421  7526  8252 I WorkerManager: Releasing worker: [audio]/[4]/[com.google.android.apps.gsa.staticplugins.m.i]
+02-21 14:15:40.421  4601  4635 D gralloc : [mali_gralloc_allocate] begin
+02-21 14:15:40.421  4601  4635 D gralloc : buffer_descriptor: wh(1080 2340) usage_pc(0x40000000000b00 0x40000000000b00) hal_format(0x1) layer_count(1) sizes(0 0 0) strde(0) byte_stride(0) alloc_wh(0 0) internal_format(0x0) alloc_format(0x0) fd_count(1) plane_count(0)
+02-21 14:15:40.422  7526  8252 I WorkerManager: Releasing worker: [audio]/[4]/[com.google.android.apps.gsa.staticplugins.m.i]
+02-21 14:15:40.422  7526  8252 I WorkerManager: Releasing worker: [audio]/[4]/[com.google.android.apps.gsa.staticplugins.m.i]
+02-21 14:15:40.422  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$performDraw$1$ViewRootImpl:4554 android.view.-$$Lambda$ViewRootImpl$DJd0VUYJgsebcnSohO6h8zc_ONI.run:6 android.os.Handler.handleCallback:938 
+02-21 14:15:40.422  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: [DP] rdf()
+02-21 14:15:40.423  4601  4635 D gralloc : [mali_gralloc_allocate] allocation successful
+02-21 14:15:40.423  7526  8252 I WorkerManager: Releasing worker: [progress]/[379]/[com.google.android.apps.gsa.staticplugins.cy.a]
+02-21 14:15:40.423  7526  8252 I WorkerManager: Releasing worker: [progress]/[379]/[com.google.android.apps.gsa.staticplugins.cy.a]
+02-21 14:15:40.424  7526  8252 I WorkerManager: Releasing worker: [logo_header]/[71]/[com.google.android.apps.gsa.staticplugins.ca.a]
+02-21 14:15:40.424  7526  8252 I WorkerManager: Releasing worker: [logo_header]/[71]/[com.google.android.apps.gsa.staticplugins.ca.a]
+02-21 14:15:40.426  5016  5896 D WindowManager: finishDrawingWindow: Window{dd1a16c u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity} mDrawState=DRAW_PENDING
+02-21 14:15:40.426  5016  5070 V WindowManager: Updating vis of wallpaper Window{3d8ea85 u0 com.android.systemui.ImageWallpaper}: true from:
+02-21 14:15:40.426  5016  5070 V WindowManager:   com.android.server.wm.WallpaperWindowToken.updateWallpaperWindows:169
+02-21 14:15:40.426  5016  5070 V WindowManager:   com.android.server.wm.WallpaperController.updateWallpaperTokens:684
+02-21 14:15:40.426  5016  5070 V WindowManager:   com.android.server.wm.WallpaperController.adjustWallpaperWindows:723
+02-21 14:15:40.426  5016  5070 V WindowManager:   com.android.server.wm.DisplayContent.applySurfaceChangesTransaction:4783
+02-21 14:15:40.427  5405  6454 D WallpaperService: dispatchAppVisibility onVisibilityChanged(): true
+02-21 14:15:40.427  5405  5405 D WallpaperService: updateSurface forceRelayout=true forceReport=false redrawNeeded=false myWidth=2340 myHeight=2340 fixedSize=true x = 0 y = 0 mWidth=2340 mHeight=2340 mIsSleepMode=false
+02-21 14:15:40.427  5405  5405 D WallpaperService: mDeviceHeight : 2340, mDeviceWidth : 1080,mDeviceRotation  : 0
+02-21 14:15:40.427  5740  5740 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+02-21 14:15:40.428  5740  5740 I PopupDataProvider: onNotificationFullRefresh prev dotInfoSize : 4
+02-21 14:15:40.428  5740  5740 I PopupDataProvider: refresh badge  package : com.google.android.setupwizard count : 1
+02-21 14:15:40.428  5740  5740 I PopupDataProvider: refresh badge  package : com.sec.android.app.samsungapps count : 1
+02-21 14:15:40.428  5740  5740 I PopupDataProvider: refresh badge  package : com.aura.oobe.samsung count : 1
+02-21 14:15:40.428  5740  5740 I PopupDataProvider: refresh badge  package : com.google.android.gm count : 1
+02-21 14:15:40.429  5016  5070 D WindowManager: createAnimationAdapter(): container=Task{a97a16c #3140 visible=false type=standard mode=fullscreen translucent=true A=10308:com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal U=0 StackId=3140 sz=1}
+02-21 14:15:40.429  5016  5070 I WindowManager: Reparenting to leash, surface=Surface(name=Task=3140)/@0xf83e3f7, leashParent=Surface(name=DefaultTaskDisplayArea)/@0xde07bcd
+02-21 14:15:40.429  4681  4700 I SurfaceFlinger: id=408 createSurf (0x0),-1 flag=24000, Surface(name=Task=3140)/@0xf83e3f7 - animation-leash#0
+02-21 14:15:40.430  5016  5070 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=Task=3140)/@0xf83e3f7 - animation-leash)/@0xdb2f863
+02-21 14:15:40.430  5016  5070 D WindowManager: startAnimation
+02-21 14:15:40.430  5016  5070 D WindowManager: createAnimationAdapter(): container=Task{8041175 #1 visible=false type=home mode=fullscreen translucent=true I=com.sec.android.app.launcher/.activities.LauncherActivity U=0 StackId=1 sz=1}
+02-21 14:15:40.430  5016  5070 I WindowManager: Reparenting to leash, surface=Surface(name=Task=1)/@0xa71758d, leashParent=Surface(name=DefaultTaskDisplayArea)/@0xde07bcd
+02-21 14:15:40.431  4681  4700 I SurfaceFlinger: id=409 createSurf (0x0),-1 flag=24004, Surface(name=Task=1)/@0xa71758d - animation-leash#0
+02-21 14:15:40.431  5016  5070 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=Task=1)/@0xa71758d - animation-leash)/@0xc741c60
+02-21 14:15:40.432  5016  5070 D WindowManager: startAnimation
+02-21 14:15:40.433  5016  5070 D PkgPredictorService: pkg:com.sec.android.app.launcher activity:com.sec.android.app.launcher.activities.LauncherActivity thisTime:-1
+02-21 14:15:40.434  5740  5740 I BadgeRenderer: Invalid count : 0
+02-21 14:15:40.435  5740  5740 I BadgeRenderer: Invalid count : 0
+02-21 14:15:40.435  5016  5070 D WindowManager: goodToGo()
+02-21 14:15:40.435  5016  5070 D WindowManager: createAppAnimations()
+02-21 14:15:40.435  5740  5740 I BadgeRenderer: Invalid count : 0
+02-21 14:15:40.435  5016  5070 D WindowManager: 	Add container=Task{8041175 #1 visible=false type=home mode=fullscreen translucent=true I=com.sec.android.app.launcher/.activities.LauncherActivity U=0 StackId=1 sz=1}
+02-21 14:15:40.437  5016  5070 D WindowManager: 	Add container=Task{a97a16c #3140 visible=false type=standard mode=fullscreen translucent=true A=10308:com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal U=0 StackId=3140 sz=1}
+02-21 14:15:40.437  5016  5070 D WindowManager: createWallpaperAnimations()
+02-21 14:15:40.437  5016  5070 D WindowManager: 	visible=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde}
+02-21 14:15:40.437  5016  5070 I WindowManager: Reparenting to leash, surface=Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8, leashParent=Surface(name=Leaf:0:1)/@0xce06ed7
+02-21 14:15:40.438  4681  4700 I SurfaceFlinger: id=410 createSurf (0x0),-1 flag=24000, Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8 - animation-leash#0
+02-21 14:15:40.438  5016  5070 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8 - animation-leash)/@0x558519
+02-21 14:15:40.438  5016  5070 D WindowManager: startAnimation
+02-21 14:15:40.441  5016  5070 D WindowManager: RemoteAnimationController::onAnimationStart, animations=[Landroid.view.RemoteAnimationTarget;@d4d79de
+02-21 14:15:40.442  5016  5070 D WindowManager: startAnimation(): Notify animation start:
+02-21 14:15:40.442  5016  5070 I WindowManager: Starting remote animation
+02-21 14:15:40.442  5740 19249 I LauncherAnimationRunner: onAnimationStart, appTargets : [Lcom.android.systemui.shared.system.RemoteAnimationTargetCompat;@7b80c9c mStartAtFrontOfQueue : false
+02-21 14:15:40.442  5016  5070 I WindowManager: container=Task{8041175 #1 visible=false type=home mode=fullscreen translucent=true I=com.sec.android.app.launcher/.activities.LauncherActivity U=0 StackId=1 sz=1}
+02-21 14:15:40.442  5016  5070 I WindowManager: Target:
+02-21 14:15:40.442  5016  5070 I WindowManager:   mode=0 taskId=3131 isTranslucent=false clipRect=[0,0][1080,2340] contentInsets=[0,83][0,126] prefixOrderIndex=16 position=[0,0] sourceContainerBounds=[0,0][1080,2340] screenSpaceBounds=[0,0][1080,2340] localBounds=[0,0][1080,2340]
+02-21 14:15:40.442  5016  5070 I WindowManager:   windowConfiguration={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 83 - 1080, 2214) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTATION_0}
+02-21 14:15:40.442  5016  5070 I WindowManager:   leash=Surface(name=Surface(name=Task=1)/@0xa71758d - animation-leash)/@0xc741c60
+02-21 14:15:40.442  5016  5070 I WindowManager: container=Task{a97a16c #3140 visible=false type=standard mode=fullscreen translucent=true A=10308:com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal U=0 StackId=3140 sz=1}
+02-21 14:15:40.442  5016  5070 I WindowManager: Target:
+02-21 14:15:40.442  5016  5070 I WindowManager:   mode=1 taskId=3140 isTranslucent=false clipRect=[0,0][1080,2340] contentInsets=[0,83][0,126] prefixOrderIndex=12 position=[0,0] sourceContainerBounds=[0,0][1080,2340] screenSpaceBounds=[0,0][1080,2340] localBounds=[0,0][1080,2340]
+02-21 14:15:40.442  5016  5070 I WindowManager:   windowConfiguration={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 83 - 1080, 2214) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0}
+02-21 14:15:40.442  5016  5070 I WindowManager:   leash=Surface(name=Surface(name=Task=3140)/@0xf83e3f7 - animation-leash)/@0xdb2f863
+02-21 14:15:40.442  5740  5740 I WrappedLauncherAnimationRunner: onCreateAnimation, animationRunnerImpl : com.android.launcher3.QuickstepAppTransitionManagerImpl$WallpaperOpenLauncherAnimationRunner@99ea8b9
+02-21 14:15:40.442  5740  5740 I QuickstepTransition: WallpaperOpenLauncherAnimationRunner, onCreateAnimation
+02-21 14:15:40.443  5740  5740 W AppTransitionAnimatorImpl: closing animation with floating icon - true
+02-21 14:15:40.443  5016  5896 V WindowManager: Relayout Window{3d8ea85 u0 com.android.systemui.ImageWallpaper}: viewVisibility=0 req=2340x2340
+02-21 14:15:40.446  5016  5896 V WindowManager: Relayout hash=3d8ea85, pid=5405: mAttrs={(0,0)(2340x2340) gr=TOP START CENTER layoutInDisplayCutoutMode=always ty=WALLPAPER fmt=RGBX_8888 wanim=0x1030315
+02-21 14:15:40.446  5016  5896 V WindowManager:   fl=14318
+02-21 14:15:40.446  5016  5896 V WindowManager:   pfl=4 naviIconColor=0
+02-21 14:15:40.446  5016  5896 V WindowManager:   sfl=8}
+02-21 14:15:40.446  5740  5740 W AppTransitionAnimatorImpl: onAnimationStart - APP OUT
+02-21 14:15:40.446  5016  5896 I SurfaceControl: release : mNativeObject = 536705853840 - Surface(name=com.android.systemui.ImageWallpaper$_5405)/@0x4d2b7bf
+02-21 14:15:40.446  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536705853840]
+02-21 14:15:40.446  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536705853840]
+02-21 14:15:40.448  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.448  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.450  5405  5405 I SurfaceControl: release : mNativeObject = 536705865264 - Surface(name=com.android.systemui.ImageWallpaper$_5405)/@0x65c9af2
+02-21 14:15:40.451  5016  5189 I InputDispatcher: Focus entered window (5740): dd1a16c in display 0 0
+02-21 14:15:40.452  5405  5405 I SurfaceControl: nativeRelease nativeObject s[536705865264]
+02-21 14:15:40.453  5405  5405 I SurfaceControl: nativeRelease nativeObject e[536705865264]
+02-21 14:15:40.455  5405  5405 D WallpaperService: updateSurface redrawNeeded=false didSurface=false
+02-21 14:15:40.455  5405  5405 I ImageWallpaper:  onVisibilityChanged true
+02-21 14:15:40.455  5405  5405 I ImageWallpaperRenderer:  updateWallpaperOffset 0
+02-21 14:15:40.456  5016  5189 D WALLPAPER_SVC:WallpaperManagerService: getWallpaperSafeLocked, userId = 0, which = 1, caller = com.android.server.wallpaper.WallpaperManagerService.semGetWallpaperType:5511 
+02-21 14:15:40.457  5016  5189 D WallpaperManagerService: which : 1, return type : 0 (called by userId= 0)
+02-21 14:15:40.457  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.457  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.457  5405  5405 I ImageWallpaperRenderer:  updateWallpaperOffset lastCropOffset 0 wp Type , 0
+02-21 14:15:40.457  5740  5740 I ViewRootImpl@6bdece[LauncherActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-21 14:15:40.457  5405  5405 I ImageWallpaperRenderer:  Wallpaper do not change Display offset 0
+02-21 14:15:40.457  5405  5405 D WallpaperService: reportVisibility onVisibilityChanged visible: true
+02-21 14:15:40.458  5740  5740 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-21 14:15:40.459  5016  5189 V InputMethodManagerService: Unspecified window will hide input
+02-21 14:15:40.459  5016  5189 V InputMethodManagerService: hideCurrentInputLocked : shouldHideSoftInput is false
+02-21 14:15:40.459  5016  5189 D InputMethodManagerService: mDesktopModeManager null!
+02-21 14:15:40.459  5016  5189 V InputMethodManagerService: getDisplayIdOfInputMethodWindowToBeAdded : 0
+02-21 14:15:40.460  5016  5189 V InputMethodManagerService: Hide switching menu
+02-21 14:15:40.460  5016  5189 D SamsungIMMSHWKeyboard: isConnectedDexOnPC false
+02-21 14:15:40.460  5016  5189 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+02-21 14:15:40.461  5016  5189 D InputMethodManagerService: checkDisplayOfStartInputAndUpdateKeyboard display Id 0last 0
+02-21 14:15:40.461  5016  5189 D InputTransport: Input channel constructed: 'ClientS', fd=557
+02-21 14:15:40.461  5016  5189 D InputTransport: Input channel destroyed: 'ClientS', fd=557
+02-21 14:15:40.462 13109 13109 D InputTransport: Input channel destroyed: 'ClientS', fd=81
+02-21 14:15:40.464  5016  5189 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x3d0dddf
+02-21 14:15:40.464  5016  5189 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{44ec9d4 android.os.Binder@506e327})/@0xb88bf86, destroy=false, surface=Surface(name=ba841ba InputMethod)/@0xd113861
+02-21 14:15:40.464  5016  5189 I SurfaceControl: release : mNativeObject = 536705893712 - Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x3d0dddf
+02-21 14:15:40.464  5016  5189 I SurfaceControl: nativeRelease nativeObject s[536705893712]
+02-21 14:15:40.464  5016  5189 I SurfaceControl: nativeRelease nativeObject e[536705893712]
+02-21 14:15:40.464  5016  5189 I WindowManager: Reparenting to leash, surface=Surface(name=ba841ba InputMethod)/@0xd113861, leashParent=Surface(name=WindowToken{44ec9d4 android.os.Binder@506e327})/@0xb88bf86
+02-21 14:15:40.465  4681  5924 I SurfaceFlinger: id=411 createSurf (0x0),-1 flag=24004, Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash#1
+02-21 14:15:40.465  5016  5189 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x20510db
+02-21 14:15:40.465  5016  5189 D SurfaceControl: hide : mNativeObject = 537242839568 - sc.mNativeObject = 536705853840 - Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x20510db
+02-21 14:15:40.465  5016  5189 D SurfaceControl: nativeSetFlags Done : Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x20510db
+02-21 14:15:40.467  5405  5445 I ndroid.systemu: NativeAlloc concurrent copying GC freed 244587(10MB) AllocSpace objects, 8(160KB) LOS objects, 49% free, 13MB/27MB, paused 241us total 107.896ms
+02-21 14:15:40.467  5405  5445 W ndroid.systemu: Reducing the number of considered missed Gc histogram windows from 136 to 100
+02-21 14:15:40.468  5740  5740 I BadgeRenderer: Invalid count : 0
+02-21 14:15:40.468  5740  5740 I BadgeRenderer: Invalid count : 0
+02-21 14:15:40.468  5740  5740 I BadgeRenderer: Invalid count : 0
+02-21 14:15:40.469  4681  5924 I Layer   : id=403 removeFromCurrentState Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash#0 (64)
+02-21 14:15:40.470  7479  7479 I HBD     : HoneyBoardService onFinishInput 
+02-21 14:15:40.470  7479  7479 I HBD     : a IC have been unbinded,  InputConnectionWrapper{idHash=#91ebc71 mMissingMethods=}
+02-21 14:15:40.471  7479  7479 I HBD     : HoneyBoardService [PF_CL][onFinishInput]  621962 ns 
+02-21 14:15:40.471  5740  5898 I AppIconSolution: getThemeIconWithBG called with public API, pkg = com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal
+02-21 14:15:40.471  7479  7479 I HBD     : HoneyBoardService [IMI] onStartInput - caller pid : 5740 , caller uid : 10121 
+02-21 14:15:40.471  7479  7479 I HBD     : i updateConfigs 
+02-21 14:15:40.471  7479  7479 I HBD     : i isEnabledNightMode : true 
+02-21 14:15:40.471  5016  5896 D SamsungIMMSHWKeyboard: isConnectedDexOnPC false
+02-21 14:15:40.472  5740  5740 I SurfaceControl: release : mNativeObject = 536705768944 - Surface(name=Surface(name=97aa58f NavigationBar0)/@0x716adb5 - animation-leash)/@0x9fe27e2
+02-21 14:15:40.472  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705768944]
+02-21 14:15:40.472  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705768944]
+02-21 14:15:40.472  7479  7479 I HBD     : a IC have been binded, InputConnectionWrapper{idHash=#fe6da56 mMissingMethods=} 
+02-21 14:15:40.472  5740  5740 I SurfaceControl: release : mNativeObject = 536705767488 - Surface(name=Surface(name=4735855 StatusBar)/@0x6fe05bc - animation-leash)/@0xc2a0773
+02-21 14:15:40.472  5740  5740 I SurfaceControl: nativeRelease nativeObject s[536705767488]
+02-21 14:15:40.472  5740  5740 I SurfaceControl: nativeRelease nativeObject e[536705767488]
+02-21 14:15:40.472  5016  5896 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+02-21 14:15:40.472  7479  7479 I HBD     : h [EditorInputType]setPrivateImeOptionsToTable privateImeOptions ( null )
+02-21 14:15:40.472  7479  7479 I HBD     : b incognitoMode : false 
+02-21 14:15:40.472  5740  5898 I AppIconSolution: start to load, pkg=NULL, bg=192-192, dr=2006-2006, forDefault=true, density=640
+02-21 14:15:40.474  7479  7479 I HBD     : a needOff = true , isJpnConvertState : false, isForceOff = false 
+02-21 14:15:40.474  5740  5898 I AppIconSolution: scale down, pkg=NULL, dr=215-215, bg=216-216
+02-21 14:15:40.474 13109 13109 I SurfaceControl: release : mNativeObject = 536705752816 - Surface(name=Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash)/@0x43991c6
+02-21 14:15:40.474  7479  7479 I HBD     : h getDefaultInputRange : UNKNOWN 
+02-21 14:15:40.474 13109 13109 I SurfaceControl: nativeRelease nativeObject s[536705752816]
+02-21 14:15:40.474  7479  7479 I HBD     : h getDefaultInputRange : UNKNOWN 
+02-21 14:15:40.474 13109 13109 I SurfaceControl: nativeRelease nativeObject e[536705752816]
+02-21 14:15:40.474  7479  7479 I HBD     : h getDefaultInputRange : UNKNOWN 
+02-21 14:15:40.474  4681  4700 I SurfaceFlinger: id=403 Removed Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash#0 (64)
+02-21 14:15:40.475  5740  5898 I AppIconSolution: getIconScale, pkg=NULL, size=215, iconScale=IconScale[alpha=0, scale=1.0, isCrop=true]
+02-21 14:15:40.476  5405  5446 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.systemui.qs.external.TileLifecycleManager
+02-21 14:15:40.476  5405  5446 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+02-21 14:15:40.476  7479  7479 I HBD     : h getDefaultInputRange : UNKNOWN 
+02-21 14:15:40.477  7479  7479 I HBD     : a currentState : 0 
+02-21 14:15:40.478  5740  5898 I AppIconSolution: default container[CROP], pkg=NULL, bg=215-215, dr=215-215
+02-21 14:15:40.479  7479  7479 I HBD     : a [UpdatePolicy] [post] a: 0 cl: 65537 kit: [0/0] vt: 0 ir: 1 
+02-21 14:15:40.479  4681  4681 D SurfaceFlinger: Display 0 HWC layers:
+02-21 14:15:40.479  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af0a30 | 0002 | RGBA_1010102 |  630.0    0.0 1710.0 2340.0 |    0    0 1080 2340 | com.android.systemui.ImageWallpaper$_5405#0
+02-21 14:15:40.479  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af1b10 | 0000 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sec.android.app.launcher/com.sec[...].activities.LauncherActivity$_5740#0
+02-21 14:15:40.479  4681  4681 D SurfaceFlinger:      CLIENT | 0x70a7af3610 | 0002 | RGBA_8888    |    0.0   93.0 1080.0 2231.0 |    1  106 1067 2216 | com.amazon.whisperjoin.deviceprovisi[...]vicetestapp.WelcomeActivity$_13109#0
+02-21 14:15:40.479  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af1d50 | 0000 | RGBA_8888    |    0.0    0.0 1080.0   78.0 |    0    0 1080   78 | StatusBar$_5405#0
+02-21 14:15:40.479  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af2650 | 0000 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  438 1080  780 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_9814#0
+02-21 14:15:40.479  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7aebb70 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2214 1080 2340 | NavigationBar0$_5405#0
+02-21 14:15:40.479  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7aefb90 | 0000 | RGBA_8888    |    0.0    0.0
+02-21 14:15:40.479  4681  4681 D SurfaceFlinger:  1080.0  151.0 |    0    0 1080  151 | ScreenDecorOverlay$_5405#0
+02-21 14:15:40.479  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af0130 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  151.0 |    0 2189 1080 2340 | ScreenDecorOverlayBottom$_5405#0
+02-21 14:15:40.479  4681  4681 D SurfaceFlinger: 
+02-21 14:15:40.479  5405  5446 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.systemui.qs.external.TileLifecycleManager
+02-21 14:15:40.479  5405  5446 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+02-21 14:15:40.480  7479  7479 I HBD     : HoneyBoardService [PF_OP][onStartInput]  9201347 ns 
+02-21 14:15:40.483  5740  5898 I LauncherActivityInfo: packageName: com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal, useThemeIcon: false, height: 215, width: 215, density: 640
+02-21 14:15:40.484  4681  4681 I Layer   : id=403[1] Destroyed Surface(name=ba841ba InputMethod)/@0xd113861 - animation-leash#0
+02-21 14:15:40.504  5016  5559 D MdnieScenarioControlService:  packageName : com.sec.android.app.launcher    className : com.android.launcher3.uioverrides.QuickstepLauncher
+02-21 14:15:40.504  5016  5559 V MdnieScenarioControlService: setUIMode from UI function(3)
+02-21 14:15:40.605  5016  5559 V MdnieScenarioControlService: mAclOffEnabled : false mAclPreviewState : false mAclCompensationState : false
+02-21 14:15:40.671  4681  4681 D SurfaceFlinger: Display 0 HWC layers:
+02-21 14:15:40.671  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af0a30 | 0002 | RGBA_1010102 |  630.0    0.0 1710.0 2340.0 |    0    0 1080 2340 | com.android.systemui.ImageWallpaper$_5405#0
+02-21 14:15:40.671  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af1b10 | 0000 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sec.android.app.launcher/com.sec[...].activities.LauncherActivity$_5740#0
+02-21 14:15:40.671  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af1d50 | 0000 | RGBA_8888    |    0.0    0.0 1080.0   78.0 |    0    0 1080   78 | StatusBar$_5405#0
+02-21 14:15:40.671  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af2650 | 0000 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  438 1080  780 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_9814#0
+02-21 14:15:40.671  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7aebb70 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2214 1080 2340 | NavigationBar0$_5405#0
+02-21 14:15:40.671  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7aefb90 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  151.0 |    0    0 1080  151 | ScreenDecorOverlay$_5405#0
+02-21 14:15:40.671  4681  4681 D SurfaceFlinger:      DEVICE | 0x70a7af0130 | 0000 | RGBA_8888    |    0.0    0.0 1080.0  151.0 |    0 2189 1080 2340 | ScreenDecorO
+02-21 14:15:40.671  4681  4681 D SurfaceFlinger: verlayBottom$_5405#0
+02-21 14:15:40.671  4681  4681 D SurfaceFlinger: 
+02-21 14:15:40.684  5740  5740 W AppTransitionAnimatorImpl: onAnimationEnd - APP OUT, Execution time for each frame : Start-(2)-1-(0)-0-(3)-0-(17)-0-(17)-0-(16)-0-(17)-0-(16)-1-(16)-0-(17)-0-(16)-1-(16)-0-(17)-0-(16)-1-(16)-0-(17)-0-(16)-1-End
+02-21 14:15:40.685  5016  7238 D WindowManager: app-onAnimationFinished(): mOuter=com.android.server.wm.RemoteAnimationController@7e8e6b6
+02-21 14:15:40.685  5016  7238 D WindowManager: onAnimationFinished(): mPendingAnimations=2, caller=
+02-21 14:15:40.685  5016  7238 D WindowManager: app-release(): mOuter=com.android.server.wm.RemoteAnimationController@7e8e6b6
+02-21 14:15:40.685  5016  7238 D WindowManager: onAnimationFinished(): Notify animation finished:
+02-21 14:15:40.685  5016  7238 I WindowManager: Reparenting to original parent: Surface(name=DefaultTaskDisplayArea)/@0xde07bcd, destroy=true, surface=Surface(name=Task=1)/@0xa71758d
+02-21 14:15:40.685  5016  7238 I SurfaceControl: release : mNativeObject = 536705865264 - Surface(name=Surface(name=Task=1)/@0xa71758d - animation-leash)/@0xc741c60
+02-21 14:15:40.685  5016  7238 I SurfaceControl: nativeRelease nativeObject s[536705865264]
+02-21 14:15:40.685  5016  7238 I SurfaceControl: nativeRelease nativeObject e[536705865264]
+02-21 14:15:40.687  5016  7238 D WindowManager: 	container=Task{8041175 #1 visible=false type=home mode=fullscreen translucent=true I=com.sec.android.app.launcher/.activities.LauncherActivity U=0 StackId=1 sz=1}
+02-21 14:15:40.687  5016  7238 I WindowManager: Reparenting to original parent: Surface(name=DefaultTaskDisplayArea)/@0xde07bcd, destroy=true, surface=Surface(name=Task=3140)/@0xf83e3f7
+02-21 14:15:40.687  5016  7238 I SurfaceControl: release : mNativeObject = 536706002352 - Surface(name=Surface(name=Task=3140)/@0xf83e3f7 - animation-leash)/@0xdb2f863
+02-21 14:15:40.687  5016  7238 I SurfaceControl: nativeRelease nativeObject s[536706002352]
+02-21 14:15:40.687  5016  7238 I SurfaceControl: nativeRelease nativeObject e[536706002352]
+02-21 14:15:40.687  5016  7238 V WindowManager: Setting visibility of Window{de9f2b8 u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity}: false, caller=com.android.server.wm.WindowContainer.sendAppVisibilityToClients:1017 com.android.server.wm.ActivityRecord.setClientVisible:6326 com.android.server.wm.ActivityRecord.onAnimationFinished:7078 com.android.server.wm.WindowContainer.doAnimationFinished:2639 com.android.server.wm.WindowContainer.onAnimationFinished:2648 
+02-21 14:15:40.688  5016  7238 D WindowManager: 	container=Task{a97a16c #3140 visible=false type=standard mode=fullscreen translucent=true A=10308:com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal U=0 StackId=3140 sz=1}
+02-21 14:15:40.688  5016  7238 I WindowManager: Reparenting to original parent: Surface(name=Leaf:0:1)/@0xce06ed7, destroy=true, surface=Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8
+02-21 14:15:40.688  5016  7238 I SurfaceControl: release : mNativeObject = 536705898752 - Surface(name=Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8 - animation-leash)/@0x558519
+02-21 14:15:40.688  5016  7238 I SurfaceControl: nativeRelease nativeObject s[536705898752]
+02-21 14:15:40.688  5016  7238 I SurfaceControl: nativeRelease nativeObject e[536705898752]
+02-21 14:15:40.688  5016  7238 D WindowManager: 	wallpaper=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde}
+02-21 14:15:40.688  4681  4700 I Layer   : id=409 removeFromCurrentState Surface(name=Task=1)/@0xa71758d - animation-leash#0 (63)
+02-21 14:15:40.689  5016  7238 I WindowManager: Finishing remote animation
+02-21 14:15:40.689  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.689  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.690  5740  5740 W Launcher: onEnterAnimationComplete
+02-21 14:15:40.690  5016  5088 D FastTrack: setFastTrackState: pid = 13109 ;tid= 13109 ;value= 0
+02-21 14:15:40.691  5016  5088 D FastTrack: setFastTrackState: pid = 13109 ;tid= 13234 ;value= 0
+02-21 14:15:40.692  5016  5067 D SehCodecSolutionService: Update top [com.sec.android.app.launcher]
+02-21 14:15:40.700  4681  4681 E Layer   : [Surface(name=Task=1)/@0xa71758d - animation-leash#0] No local sync point found
+02-21 14:15:40.700  5016  5070 D SurfaceControl: hide : mNativeObject = 537242839568 - sc.mNativeObject = 536705754272 - Surface(name=ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t3140})/@0xb46d335
+02-21 14:15:40.700  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t3140})/@0xb46d335
+02-21 14:15:40.701  5016  5070 D SurfaceControl: hide : mNativeObject = 537244150592 - sc.mNativeObject = 536705755280 - Surface(name=com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity$_13109)/@0x775d90
+02-21 14:15:40.701  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity$_13109)/@0x775d90
+02-21 14:15:40.701  4681  5924 I Layer   : id=408 removeFromCurrentState Surface(name=Task=3140)/@0xf83e3f7 - animation-leash#0 (63)
+02-21 14:15:40.701  4681  5924 I Layer   : id=410 removeFromCurrentState Surface(name=WallpaperWindowToken{34bf5bf token=android.os.Binder@d0cefde})/@0xb286db8 - animation-leash#0 (63)
+02-21 14:15:40.706  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.706  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.706  4681  5924 E BufferQueueProducer: [com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity$_13109#0](id:124900000038,api:0,p:-1,c:4681) disconnect: not connected (req=1)
+02-21 14:15:40.706 13109 13234 W libEGL  : EGLNativeWindowType 0x7e162be4b0 disconnect failed
+02-21 14:15:40.708  5016  5896 V WindowManager: Relayout Window{de9f2b8 u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity}: viewVisibility=8 req=1080x2340
+02-21 14:15:40.710  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.710  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.710  5016  5896 V WindowManager: Relayout hash=de9f2b8, pid=13109: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030304
+02-21 14:15:40.710  5016  5896 V WindowManager:   fl=81810100
+02-21 14:15:40.710  5016  5896 V WindowManager:   pfl=12020000
+02-21 14:15:40.710  5016  5896 V WindowManager:   fitSides= naviIconColor=0}
+02-21 14:15:40.712 13109 13109 I SurfaceControl: release : mNativeObject = 536705742736 - Surface(name=null)/@0xc119587
+02-21 14:15:40.712 13109 13109 I SurfaceControl: nativeRelease nativeObject s[536705742736]
+02-21 14:15:40.712 13109 13109 I SurfaceControl: nativeRelease nativeObject e[536705742736]
+02-21 14:15:40.714 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)8 dur=6 res=0x5 s={false 0} ch=true fn=5
+02-21 14:15:40.715 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: stopped(true) old=false
+02-21 14:15:40.722 13109 13109 I ViewRootImpl@396e733[WelcomeActivity]: dispatchDetachedFromWindow
+02-21 14:15:40.722  5016  5896 D InputTransport: Input channel destroyed: 'de9f2b8', fd=584
+02-21 14:15:40.722  5016  5896 I SurfaceControl: release : mNativeObject = 536705741616 - Surface(name=de9f2b8 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity)/@0xeb4e689
+02-21 14:15:40.723  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536705741616]
+02-21 14:15:40.723  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536705741616]
+02-21 14:15:40.723  5016  5896 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+02-21 14:15:40.723  5016  5896 I WindowManager: Destroying surface Surface(name=com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity$_13109)/@0x775d90 called by com.android.server.wm.WindowStateAnimator.destroySurface:1794 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:765 com.android.server.wm.WindowState.removeImmediately:2633 com.android.server.wm.WindowState.removeIfPossible:2785 com.android.server.wm.WindowState.removeIfPossible:2656 com.android.server.wm.WindowManagerService.removeWindow:2170 com.android.server.wm.Session.remove:197 android.view.IWindowSession$Stub.onTransact:798 
+02-21 14:15:40.723  5016  5896 I SurfaceControl: release : mNativeObject = 536705755280 - Surface(name=com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity$_13109)/@0x775d90
+02-21 14:15:40.723  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536705755280]
+02-21 14:15:40.723  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536705755280]
+02-21 14:15:40.723  4681  5358 I Layer   : id=399 removeFromCurrentState com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity$_13109#0 (63)
+02-21 14:15:40.723  4681  5358 I SurfaceFlinger: id=399 Removed com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity$_13109#0 (63)
+02-21 14:15:40.724  4681  5358 I Layer   : id=393 removeFromCurrentState de9f2b8 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity#0 (63)
+02-21 14:15:40.725  5016  5070 D SurfaceControl: hide : mNativeObject = 537242821792 - sc.mNativeObject = 536705861568 - Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.725  4681  5358 I SurfaceFlinger: id=393 Removed de9f2b8 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity#0 (63)
+02-21 14:15:40.725  5016  5070 D SurfaceControl: nativeSetFlags Done : Surface(name=Input Consumer recents_animation_input_consumer)/@0xb88b76d
+02-21 14:15:40.726 13109 13109 D InputTransport: Input channel destroyed: 'de9f2b8', fd=74
+02-21 14:15:40.727  5016  5896 I ActivityTaskManager: Removing activity ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t3140 f}}(activityDestroyed)  from stack callers=com.android.server.wm.ActivityRecord.destroyed:3546 com.android.server.wm.ActivityTaskManagerService.activityDestroyed:2617 android.app.IActivityTaskManager$Stub.onTransact:2210 android.os.Binder.execTransactInternal:1195 android.os.Binder.execTransact:1159 
+02-21 14:15:40.727  5016  5896 I SurfaceControl: release : mNativeObject = 536705754272 - Surface(name=ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t3140})/@0xb46d335
+02-21 14:15:40.727  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536705754272]
+02-21 14:15:40.727  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536705754272]
+02-21 14:15:40.727  5016  5896 I SurfaceControl: release : mNativeObject = 536705833680 - Surface(name=Task=3140)/@0xf83e3f7
+02-21 14:15:40.727  5016  5896 I SurfaceControl: nativeRelease nativeObject s[536705833680]
+02-21 14:15:40.727  5016  5896 I SurfaceControl: nativeRelease nativeObject e[536705833680]
+02-21 14:15:40.729  4681  5358 I Layer   : id=389 removeFromCurrentState Task=3140#0 (63)
+02-21 14:15:40.729  4681  5358 I Layer   : id=390 removeFromCurrentState ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t3140}#0 (63)
+02-21 14:15:40.729  4681  5358 I Layer   : id=390 removeFromCurrentState ActivityRecord{a847a1f u0 com.amazon.whisperjoin.deviceprovisioningservicetestapp.internal/com.amazon.whisperjoin.deviceprovisioningservicetestapp.WelcomeActivity t3140}#0 (63)
